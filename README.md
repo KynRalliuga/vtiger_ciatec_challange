@@ -4,6 +4,7 @@ In your local machine:
 
 - Create a DB in MySQL with the name "vtiger_cia_tecnica" and import the sql "./bkp_mysql/bkp_vtiger_cia_tecnica.sql";
 - Then rename the file "config.inc.php.example" to "config.inc.php" and change it to better suit the configurations of your machine;
+- Follow these instructions to make sure your machine will run the project: https://community.vtiger.com/help/vtigercrm/administrators/installation.html;
 
 # Vtiger CRM
 
