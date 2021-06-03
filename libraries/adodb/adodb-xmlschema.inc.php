@@ -157,7 +157,7 @@ class dbObject {
 	* Destroys the object
 	*/
 	function destroy() {
-		// unset( $this );
+		// unset( $this ); // Para instalar com o php 7.1 tive que comentar essa linha
 	}
 
 	/**
@@ -2211,7 +2211,7 @@ class adoSchema {
 	function Destroy() {
 		ini_set("magic_quotes_runtime", $this->mgq );
 		#set_magic_quotes_runtime( $this->mgq );
-		// unset( $this );
+		// unset( $this ); // Para instalar com o php 7.1 tive que comentar essa linha
 	}
 }
 
