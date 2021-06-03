@@ -65,7 +65,7 @@ CREATE TABLE IF NOT EXISTS `com_vtiger_workflows_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.com_vtiger_workflows_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.com_vtiger_workflows_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `com_vtiger_workflows_seq` DISABLE KEYS */;
 INSERT INTO `com_vtiger_workflows_seq` (`id`) VALUES
 	(24);
@@ -139,7 +139,7 @@ CREATE TABLE IF NOT EXISTS `com_vtiger_workflowtasks_entitymethod_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.com_vtiger_workflowtasks_entitymethod_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.com_vtiger_workflowtasks_entitymethod_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `com_vtiger_workflowtasks_entitymethod_seq` DISABLE KEYS */;
 INSERT INTO `com_vtiger_workflowtasks_entitymethod_seq` (`id`) VALUES
 	(10);
@@ -150,7 +150,7 @@ CREATE TABLE IF NOT EXISTS `com_vtiger_workflowtasks_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.com_vtiger_workflowtasks_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.com_vtiger_workflowtasks_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `com_vtiger_workflowtasks_seq` DISABLE KEYS */;
 INSERT INTO `com_vtiger_workflowtasks_seq` (`id`) VALUES
 	(28);
@@ -166,6 +166,13 @@ CREATE TABLE IF NOT EXISTS `com_vtiger_workflowtask_queue` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.com_vtiger_workflowtask_queue: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `com_vtiger_workflowtask_queue` DISABLE KEYS */;
+INSERT INTO `com_vtiger_workflowtask_queue` (`task_id`, `entity_id`, `do_after`, `task_contents`) VALUES
+	(25, '17x3', 0, '{"fromEmail":"nycmoraes@hotmail.com","fromName":"your-support name","toEmail":",nycmoraes@hotmail.com","ccEmail":"","bccEmail":"","subject":"Ticket Number : TT1 Rest","content":"Ticket ID : 3<br>Ticket Title : Rest<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tDear Administrator Nycolas,<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tThe Ticket is replied the details are :<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tTicket No : TT1<br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tStatus : Aberto<br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tCategory : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tSeverity : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tPriority : <br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tDescription : <br><br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tSolution : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\t<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tRegards<br>Support Administrator"}'),
+	(6, '12x4', 0, '{"fromEmail":"nycmoraes@hotmail.com","fromName":"admin","toEmail":"nycmoraes@hotmail.com","ccEmail":"","bccEmail":"","subject":"Regarding Contact Assignment","content":"An Contact has been assigned to you on vtigerCRM<br>Details of Contact are :<br><br>Contact Id:<b>CON1<\\/b><br>LastName:<b>tetst<\\/b><br>FirstName:<b><\\/b><br>Lead Source:<b><\\/b><br>Department:<b><\\/b><br>Description:<b><\\/b><br><br><br>And <b>CustomerPortal Login Details<\\/b> is sent to the EmailID :-<br><br>Thank You<br>Admin"}'),
+	(5, '13x7', 0, '{"fromEmail":"nycmoraes@hotmail.com","fromName":"admin","toEmail":"nycmoraes@hotmail.com","ccEmail":"","bccEmail":"","subject":"Regarding Potential Assignment","content":"An Potential has been assigned to you on vtigerCRM<br>Details of Potential are :<br><br>Potential No:<b>POT1<\\/b><br>Potential Name:<b>asdf<\\/b><br>Amount:<b>0<\\/b><br>Expected Close Date:<b>2021-06-10 (yyyy-mm-dd)<\\/b><br>Type:<b><\\/b><br><br><br>Description :<br><br>Thank You<br>Admin"}'),
+	(6, '12x9', 0, '{"fromEmail":"nycmoraes@hotmail.com","fromName":"admin","toEmail":"nycmoraes@hotmail.com","ccEmail":"","bccEmail":"","subject":"Regarding Contact Assignment","content":"An Contact has been assigned to you on vtigerCRM<br>Details of Contact are :<br><br>Contact Id:<b>CON2<\\/b><br>LastName:<b>asdf<\\/b><br>FirstName:<b><\\/b><br>Lead Source:<b><\\/b><br>Department:<b><\\/b><br>Description:<b><\\/b><br><br><br>And <b>CustomerPortal Login Details<\\/b> is sent to the EmailID :-<br><br>Thank You<br>Admin"}'),
+	(25, '17x10', 0, '{"fromEmail":"nycmoraes@hotmail.com","fromName":"your-support name","toEmail":",nycmoraes@hotmail.com","ccEmail":"","bccEmail":"","subject":"Ticket Number : TT2 Teste 2","content":"Ticket ID : 10<br>Ticket Title : Teste 2<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tDear Administrator Nycolas,<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tThe Ticket is replied the details are :<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tTicket No : TT2<br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tStatus : Aguarda Resposta<br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tCategory : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tSeverity : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tPriority : <br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tDescription : <br><br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tSolution : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\t<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tRegards<br>Support Administrator"}'),
+	(25, '17x11', 0, '{"fromEmail":"nycmoraes@hotmail.com","fromName":"your-support name","toEmail":",nycmoraes@hotmail.com","ccEmail":"","bccEmail":"","subject":"Ticket Number : TT3 Teste 3","content":"Ticket ID : 11<br>Ticket Title : Teste 3<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tDear Administrator Nycolas,<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tThe Ticket is replied the details are :<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tTicket No : TT3<br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tStatus : Fechado<br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tCategory : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tSeverity : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tPriority : <br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tDescription : <br><br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tSolution : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\t<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tRegards<br>Support Administrator"}');
 /*!40000 ALTER TABLE `com_vtiger_workflowtask_queue` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.com_vtiger_workflowtemplates
@@ -221,7 +228,7 @@ CREATE TABLE IF NOT EXISTS `com_vtiger_workflow_tasktypes_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.com_vtiger_workflow_tasktypes_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.com_vtiger_workflow_tasktypes_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `com_vtiger_workflow_tasktypes_seq` DISABLE KEYS */;
 INSERT INTO `com_vtiger_workflow_tasktypes_seq` (`id`) VALUES
 	(7);
@@ -257,6 +264,8 @@ CREATE TABLE IF NOT EXISTS `vtiger_account` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_account: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_account` DISABLE KEYS */;
+INSERT INTO `vtiger_account` (`accountid`, `account_no`, `accountname`, `parentid`, `account_type`, `industry`, `annualrevenue`, `rating`, `ownership`, `siccode`, `tickersymbol`, `phone`, `otherphone`, `email1`, `email2`, `website`, `fax`, `employees`, `emailoptout`, `notify_owner`, `isconvertedfromlead`) VALUES
+	(2, 'ACC1', 'Teste', 0, '', '', 0.00000000, '', '', '', '', '', '', '', '', '', '', 0, '0', '0', '0');
 /*!40000 ALTER TABLE `vtiger_account` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_accountbillads
@@ -273,6 +282,8 @@ CREATE TABLE IF NOT EXISTS `vtiger_accountbillads` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_accountbillads: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_accountbillads` DISABLE KEYS */;
+INSERT INTO `vtiger_accountbillads` (`accountaddressid`, `bill_city`, `bill_code`, `bill_country`, `bill_state`, `bill_street`, `bill_pobox`) VALUES
+	(2, '', '', '', '', '', '');
 /*!40000 ALTER TABLE `vtiger_accountbillads` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_accountrating
@@ -297,6 +308,8 @@ CREATE TABLE IF NOT EXISTS `vtiger_accountscf` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_accountscf: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_accountscf` DISABLE KEYS */;
+INSERT INTO `vtiger_accountscf` (`accountid`) VALUES
+	(2);
 /*!40000 ALTER TABLE `vtiger_accountscf` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_accountshipads
@@ -313,6 +326,8 @@ CREATE TABLE IF NOT EXISTS `vtiger_accountshipads` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_accountshipads: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_accountshipads` DISABLE KEYS */;
+INSERT INTO `vtiger_accountshipads` (`accountaddressid`, `ship_city`, `ship_code`, `ship_country`, `ship_state`, `ship_pobox`, `ship_street`) VALUES
+	(2, '', '', '', '', '', '');
 /*!40000 ALTER TABLE `vtiger_accountshipads` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_accounttype
@@ -326,7 +341,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_accounttype` (
   UNIQUE KEY `accounttype_accounttype_idx` (`accounttype`)
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_accounttype: ~11 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_accounttype: ~10 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_accounttype` DISABLE KEYS */;
 INSERT INTO `vtiger_accounttype` (`accounttypeid`, `accounttype`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'Analyst', 1, 2, 1),
@@ -346,7 +361,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_accounttype_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_accounttype_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_accounttype_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_accounttype_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_accounttype_seq` (`id`) VALUES
 	(11);
@@ -360,7 +375,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_actionmapping` (
   PRIMARY KEY (`actionid`,`actionname`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_actionmapping: ~22 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_actionmapping: ~25 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_actionmapping` DISABLE KEYS */;
 INSERT INTO `vtiger_actionmapping` (`actionid`, `actionname`, `securitycheck`) VALUES
 	(0, 'Save', 0),
@@ -421,6 +436,8 @@ CREATE TABLE IF NOT EXISTS `vtiger_activity` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_activity: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_activity` DISABLE KEYS */;
+INSERT INTO `vtiger_activity` (`activityid`, `subject`, `semodule`, `activitytype`, `date_start`, `due_date`, `time_start`, `time_end`, `sendnotification`, `duration_hours`, `duration_minutes`, `status`, `eventstatus`, `priority`, `location`, `notime`, `visibility`, `recurringtype`) VALUES
+	(5, 'teste', NULL, 'Call', '2021-06-03', '2021-06-03', '06:19:00', '06:24:00', '0', '0', '5', NULL, 'Planned', '', '', '0', 'Public', '');
 /*!40000 ALTER TABLE `vtiger_activity` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_activitycf
@@ -431,6 +448,8 @@ CREATE TABLE IF NOT EXISTS `vtiger_activitycf` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_activitycf: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_activitycf` DISABLE KEYS */;
+INSERT INTO `vtiger_activitycf` (`activityid`) VALUES
+	(5);
 /*!40000 ALTER TABLE `vtiger_activitycf` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_activityproductrel
@@ -470,7 +489,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_activitytype_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_activitytype_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_activitytype_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_activitytype_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_activitytype_seq` (`id`) VALUES
 	(3);
@@ -527,7 +546,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_activity_view_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_activity_view_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_activity_view_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_activity_view_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_activity_view_seq` (`id`) VALUES
 	(4);
@@ -603,7 +622,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_assetstatus_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_assetstatus_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_assetstatus_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_assetstatus_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_assetstatus_seq` (`id`) VALUES
 	(2);
@@ -696,7 +715,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_attachmentsfolder` (
   PRIMARY KEY (`folderid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_attachmentsfolder: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_attachmentsfolder: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_attachmentsfolder` DISABLE KEYS */;
 INSERT INTO `vtiger_attachmentsfolder` (`folderid`, `foldername`, `description`, `createdby`, `sequence`) VALUES
 	(1, 'Default', 'This is a Default Folder', 1, 1);
@@ -707,7 +726,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_attachmentsfolder_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_attachmentsfolder_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_attachmentsfolder_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_attachmentsfolder_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_attachmentsfolder_seq` (`id`) VALUES
 	(1);
@@ -874,7 +893,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_blocks_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_blocks_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_blocks_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_blocks_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_blocks_seq` (`id`) VALUES
 	(119);
@@ -902,7 +921,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_calendarsharedtype_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_calendarsharedtype_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_calendarsharedtype_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_calendarsharedtype_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_calendarsharedtype_seq` (`id`) VALUES
 	(3);
@@ -935,7 +954,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_calendar_default_activitytypes_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_calendar_default_activitytypes_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_calendar_default_activitytypes_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_calendar_default_activitytypes_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_calendar_default_activitytypes_seq` (`id`) VALUES
 	(8);
@@ -977,7 +996,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_calendar_user_activitytypes_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_calendar_user_activitytypes_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_calendar_user_activitytypes_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_calendar_user_activitytypes_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_calendar_user_activitytypes_seq` (`id`) VALUES
 	(16);
@@ -1007,7 +1026,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_callduration_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_callduration_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_callduration_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_callduration_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_callduration_seq` (`id`) VALUES
 	(5);
@@ -1091,7 +1110,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_campaignrelstatus` (
   `presence` int(19) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_campaignrelstatus: ~4 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_campaignrelstatus: ~3 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_campaignrelstatus` DISABLE KEYS */;
 INSERT INTO `vtiger_campaignrelstatus` (`campaignrelstatusid`, `campaignrelstatus`, `sortorderid`, `presence`) VALUES
 	(2, 'Contacted - Successful', 1, 1),
@@ -1104,7 +1123,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_campaignrelstatus_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_campaignrelstatus_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_campaignrelstatus_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_campaignrelstatus_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_campaignrelstatus_seq` (`id`) VALUES
 	(4);
@@ -1131,7 +1150,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_campaignstatus` (
   KEY `campaignstatus_campaignstatus_idx` (`campaignstatus`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_campaignstatus: ~6 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_campaignstatus: ~5 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_campaignstatus` DISABLE KEYS */;
 INSERT INTO `vtiger_campaignstatus` (`campaignstatusid`, `campaignstatus`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'Planning', 1, 15, 1),
@@ -1146,7 +1165,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_campaignstatus_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_campaignstatus_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_campaignstatus_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_campaignstatus_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_campaignstatus_seq` (`id`) VALUES
 	(6);
@@ -1163,7 +1182,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_campaigntype` (
   UNIQUE KEY `campaigntype_campaigntype_idx` (`campaigntype`)
 ) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_campaigntype: ~13 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_campaigntype: ~12 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_campaigntype` DISABLE KEYS */;
 INSERT INTO `vtiger_campaigntype` (`campaigntypeid`, `campaigntype`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'Conference', 1, 21, 1),
@@ -1185,7 +1204,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_campaigntype_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_campaigntype_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_campaigntype_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_campaigntype_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_campaigntype_seq` (`id`) VALUES
 	(13);
@@ -1217,7 +1236,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_carrier_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_carrier_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_carrier_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_carrier_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_carrier_seq` (`id`) VALUES
 	(5);
@@ -1256,6 +1275,9 @@ CREATE TABLE IF NOT EXISTS `vtiger_contactaddress` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_contactaddress: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_contactaddress` DISABLE KEYS */;
+INSERT INTO `vtiger_contactaddress` (`contactaddressid`, `mailingcity`, `mailingstreet`, `mailingcountry`, `othercountry`, `mailingstate`, `mailingpobox`, `othercity`, `otherstate`, `mailingzip`, `otherzip`, `otherstreet`, `otherpobox`) VALUES
+	(4, '', '', '', '', '', '', '', '', '', '', '', ''),
+	(9, '', '', '', '', '', '', '', '', '', '', '', '');
 /*!40000 ALTER TABLE `vtiger_contactaddress` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_contactdetails
@@ -1291,6 +1313,9 @@ CREATE TABLE IF NOT EXISTS `vtiger_contactdetails` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_contactdetails: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_contactdetails` DISABLE KEYS */;
+INSERT INTO `vtiger_contactdetails` (`contactid`, `contact_no`, `accountid`, `salutation`, `firstname`, `lastname`, `email`, `phone`, `mobile`, `title`, `department`, `fax`, `reportsto`, `training`, `usertype`, `contacttype`, `otheremail`, `secondaryemail`, `donotcall`, `emailoptout`, `imagename`, `reference`, `notify_owner`, `isconvertedfromlead`) VALUES
+	(4, 'CON1', 0, '', '', 'tetst', '', '', '', '', '', '', '0', NULL, NULL, NULL, NULL, '', '0', '0', '', '0', '0', '0'),
+	(9, 'CON2', 0, '', '', 'asdf', '', '', '', '', '', '', '0', NULL, NULL, NULL, NULL, '', '0', '0', '', '0', '0', '0');
 /*!40000 ALTER TABLE `vtiger_contactdetails` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_contactscf
@@ -1301,6 +1326,9 @@ CREATE TABLE IF NOT EXISTS `vtiger_contactscf` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_contactscf: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_contactscf` DISABLE KEYS */;
+INSERT INTO `vtiger_contactscf` (`contactid`) VALUES
+	(4),
+	(9);
 /*!40000 ALTER TABLE `vtiger_contactscf` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_contactsubdetails
@@ -1319,6 +1347,9 @@ CREATE TABLE IF NOT EXISTS `vtiger_contactsubdetails` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_contactsubdetails: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_contactsubdetails` DISABLE KEYS */;
+INSERT INTO `vtiger_contactsubdetails` (`contactsubscriptionid`, `homephone`, `otherphone`, `assistant`, `assistantphone`, `birthday`, `laststayintouchrequest`, `laststayintouchsavedate`, `leadsource`) VALUES
+	(4, '', '', '', '', NULL, 0, 0, ''),
+	(9, '', '', '', '', NULL, 0, 0, '');
 /*!40000 ALTER TABLE `vtiger_contactsubdetails` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_contpotentialrel
@@ -1357,7 +1388,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_contract_priority_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_contract_priority_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_contract_priority_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_contract_priority_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_contract_priority_seq` (`id`) VALUES
 	(3);
@@ -1389,7 +1420,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_contract_status_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_contract_status_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_contract_status_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_contract_status_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_contract_status_seq` (`id`) VALUES
 	(6);
@@ -1418,7 +1449,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_contract_type_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_contract_type_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_contract_type_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_contract_type_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_contract_type_seq` (`id`) VALUES
 	(3);
@@ -1497,6 +1528,17 @@ CREATE TABLE IF NOT EXISTS `vtiger_crmentity` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_crmentity: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_crmentity` DISABLE KEYS */;
+INSERT INTO `vtiger_crmentity` (`crmid`, `smcreatorid`, `smownerid`, `modifiedby`, `setype`, `description`, `createdtime`, `modifiedtime`, `viewedtime`, `status`, `version`, `presence`, `deleted`, `label`) VALUES
+	(2, 1, 1, 1, 'Accounts', '', '2021-06-03 04:51:43', '2021-06-03 07:02:11', NULL, NULL, 0, 1, 0, 'Teste'),
+	(3, 1, 1, 1, 'HelpDesk', '', '2021-06-03 05:49:20', '2021-06-03 06:47:17', NULL, NULL, 0, 1, 0, 'Rest'),
+	(4, 1, 1, 1, 'Contacts', '', '2021-06-03 06:02:03', '2021-06-03 06:03:04', NULL, NULL, 0, 1, 1, ' tetst'),
+	(5, 1, 1, 1, 'Calendar', '', '2021-06-03 06:19:54', '2021-06-03 06:20:22', NULL, NULL, 0, 1, 1, 'teste'),
+	(6, 1, 1, 1, 'Leads', '', '2021-06-03 06:20:33', '2021-06-03 06:21:07', NULL, NULL, 0, 1, 1, ' ttstsd'),
+	(7, 1, 1, 1, 'Potentials', '', '2021-06-03 06:21:23', '2021-06-03 06:22:31', NULL, NULL, 0, 1, 1, 'asdf'),
+	(8, 1, 1, 1, 'Project', '', '2021-06-03 06:37:55', '2021-06-03 06:38:24', NULL, NULL, 0, 1, 1, 'Teste'),
+	(9, 1, 1, 1, 'Contacts', '', '2021-06-03 06:50:42', '2021-06-03 06:52:15', NULL, NULL, 0, 1, 1, ' asdf'),
+	(10, 1, 1, 1, 'HelpDesk', '', '2021-06-03 07:01:51', '2021-06-03 07:03:03', NULL, NULL, 0, 1, 1, 'Teste 2'),
+	(11, 1, 1, 1, 'HelpDesk', '', '2021-06-03 07:02:10', '2021-06-03 07:03:03', NULL, NULL, 0, 1, 1, 'Teste 3');
 /*!40000 ALTER TABLE `vtiger_crmentity` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_crmentityrel
@@ -1509,6 +1551,9 @@ CREATE TABLE IF NOT EXISTS `vtiger_crmentityrel` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_crmentityrel: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_crmentityrel` DISABLE KEYS */;
+INSERT INTO `vtiger_crmentityrel` (`crmid`, `module`, `relcrmid`, `relmodule`) VALUES
+	(2, 'Accounts', 10, 'HelpDesk'),
+	(2, 'Accounts', 11, 'HelpDesk');
 /*!40000 ALTER TABLE `vtiger_crmentityrel` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_crmentity_seq
@@ -1516,10 +1561,10 @@ CREATE TABLE IF NOT EXISTS `vtiger_crmentity_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_crmentity_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_crmentity_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_crmentity_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_crmentity_seq` (`id`) VALUES
-	(1);
+	(11);
 /*!40000 ALTER TABLE `vtiger_crmentity_seq` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_crmsetup
@@ -1528,7 +1573,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_crmsetup` (
   `setup_status` int(2) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_crmsetup: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_crmsetup: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_crmsetup` DISABLE KEYS */;
 INSERT INTO `vtiger_crmsetup` (`userid`, `setup_status`) VALUES
 	(1, 1);
@@ -1571,7 +1616,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_currencies` (
   PRIMARY KEY (`currencyid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=139 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_currencies: ~129 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_currencies: ~138 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_currencies` DISABLE KEYS */;
 INSERT INTO `vtiger_currencies` (`currencyid`, `currency_name`, `currency_code`, `currency_symbol`) VALUES
 	(1, 'Albania, Leke', 'ALL', 'Lek'),
@@ -1719,7 +1764,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_currencies_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_currencies_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_currencies_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_currencies_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_currencies_seq` (`id`) VALUES
 	(138);
@@ -1763,7 +1808,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_currency_decimal_separator_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_currency_decimal_separator_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_currency_decimal_separator_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_currency_decimal_separator_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_currency_decimal_separator_seq` (`id`) VALUES
 	(5);
@@ -1792,7 +1837,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_currency_grouping_pattern_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_currency_grouping_pattern_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_currency_grouping_pattern_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_currency_grouping_pattern_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_currency_grouping_pattern_seq` (`id`) VALUES
 	(4);
@@ -1822,7 +1867,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_currency_grouping_separator_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_currency_grouping_separator_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_currency_grouping_separator_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_currency_grouping_separator_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_currency_grouping_separator_seq` (`id`) VALUES
 	(5);
@@ -1841,7 +1886,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_currency_info` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_currency_info: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_currency_info: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_currency_info` DISABLE KEYS */;
 INSERT INTO `vtiger_currency_info` (`id`, `currency_name`, `currency_code`, `currency_symbol`, `conversion_rate`, `currency_status`, `defaultid`, `deleted`) VALUES
 	(1, 'Brazil, Reais', 'BRL', 'R$', 1.00000, 'Active', '-11', 0);
@@ -1852,7 +1897,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_currency_info_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_currency_info_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_currency_info_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_currency_info_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_currency_info_seq` (`id`) VALUES
 	(1);
@@ -1879,7 +1924,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_currency_symbol_placement_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_currency_symbol_placement_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_currency_symbol_placement_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_currency_symbol_placement_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_currency_symbol_placement_seq` (`id`) VALUES
 	(2);
@@ -1909,6 +1954,9 @@ CREATE TABLE IF NOT EXISTS `vtiger_customerdetails` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_customerdetails: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_customerdetails` DISABLE KEYS */;
+INSERT INTO `vtiger_customerdetails` (`customerid`, `portal`, `support_start_date`, `support_end_date`) VALUES
+	(4, '0', NULL, NULL),
+	(9, '0', NULL, NULL);
 /*!40000 ALTER TABLE `vtiger_customerdetails` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_customerportal_fields
@@ -2045,7 +2093,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_customview_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_customview_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_customview_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_customview_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_customview_seq` (`id`) VALUES
 	(49);
@@ -2499,7 +2547,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_datashare_relatedmodules_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_datashare_relatedmodules_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_datashare_relatedmodules_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_datashare_relatedmodules_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_datashare_relatedmodules_seq` (`id`) VALUES
 	(9);
@@ -2630,7 +2678,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_date_format_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_date_format_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_date_format_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_date_format_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_date_format_seq` (`id`) VALUES
 	(3);
@@ -2662,7 +2710,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_dayoftheweek_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_dayoftheweek_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_dayoftheweek_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_dayoftheweek_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_dayoftheweek_seq` (`id`) VALUES
 	(7);
@@ -2690,7 +2738,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_defaultactivitytype_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_defaultactivitytype_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_defaultactivitytype_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_defaultactivitytype_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_defaultactivitytype_seq` (`id`) VALUES
 	(2);
@@ -2731,7 +2779,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_defaulteventstatus_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_defaulteventstatus_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_defaulteventstatus_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_defaulteventstatus_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_defaulteventstatus_seq` (`id`) VALUES
 	(3);
@@ -2758,7 +2806,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_default_record_view_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_default_record_view_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_default_record_view_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_default_record_view_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_default_record_view_seq` (`id`) VALUES
 	(2);
@@ -2776,7 +2824,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_def_org_field` (
   KEY `def_org_field_visible_fieldid_idx` (`visible`,`fieldid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_def_org_field: ~695 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_def_org_field: ~699 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_def_org_field` DISABLE KEYS */;
 INSERT INTO `vtiger_def_org_field` (`tabid`, `fieldid`, `visible`, `readonly`) VALUES
 	(6, 1, 0, 0),
@@ -3524,7 +3572,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_def_org_share_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_def_org_share_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_def_org_share_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_def_org_share_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_def_org_share_seq` (`id`) VALUES
 	(25);
@@ -3579,7 +3627,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_duration_minutes_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_duration_minutes_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_duration_minutes_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_duration_minutes_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_duration_minutes_seq` (`id`) VALUES
 	(4);
@@ -3637,7 +3685,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_emailtemplates_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_emailtemplates_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_emailtemplates_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_emailtemplates_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_emailtemplates_seq` (`id`) VALUES
 	(13);
@@ -3679,7 +3727,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_entityname` (
   KEY `entityname_tabid_idx` (`tabid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_entityname: ~26 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_entityname: ~27 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_entityname` DISABLE KEYS */;
 INSERT INTO `vtiger_entityname` (`tabid`, `modulename`, `tablename`, `fieldname`, `entityidfield`, `entityidcolumn`) VALUES
 	(2, 'Potentials', 'vtiger_potential', 'potentialname', 'potentialid', 'potential_id'),
@@ -3757,7 +3805,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_eventhandlers_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_eventhandlers_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_eventhandlers_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_eventhandlers_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_eventhandlers_seq` (`id`) VALUES
 	(23);
@@ -3786,7 +3834,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_eventhandler_module_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_eventhandler_module_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_eventhandler_module_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_eventhandler_module_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_eventhandler_module_seq` (`id`) VALUES
 	(5);
@@ -3815,7 +3863,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_eventstatus_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_eventstatus_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_eventstatus_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_eventstatus_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_eventstatus_seq` (`id`) VALUES
 	(3);
@@ -3832,7 +3880,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_expectedresponse` (
   UNIQUE KEY `CampaignExpRes_UK01` (`expectedresponse`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_expectedresponse: ~5 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_expectedresponse: ~4 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_expectedresponse` DISABLE KEYS */;
 INSERT INTO `vtiger_expectedresponse` (`expectedresponseid`, `expectedresponse`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'Excellent', 1, 42, 1),
@@ -3846,7 +3894,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_expectedresponse_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_expectedresponse_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_expectedresponse_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_expectedresponse_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_expectedresponse_seq` (`id`) VALUES
 	(5);
@@ -3894,7 +3942,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_faqcategories` (
   PRIMARY KEY (`faqcategories_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_faqcategories: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_faqcategories: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_faqcategories` DISABLE KEYS */;
 INSERT INTO `vtiger_faqcategories` (`faqcategories_id`, `faqcategories`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(1, 'General', 1, 46, 0);
@@ -3905,7 +3953,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_faqcategories_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_faqcategories_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_faqcategories_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_faqcategories_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_faqcategories_seq` (`id`) VALUES
 	(1);
@@ -3959,7 +4007,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_faqstatus_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_faqstatus_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_faqstatus_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_faqstatus_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_faqstatus_seq` (`id`) VALUES
 	(4);
@@ -4800,7 +4848,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_field_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_field_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_field_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_field_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_field_seq` (`id`) VALUES
 	(750);
@@ -4838,7 +4886,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_freetags_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_freetags_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_freetags_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_freetags_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_freetags_seq` (`id`) VALUES
 	(1);
@@ -4874,7 +4922,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_glacct_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_glacct_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_glacct_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_glacct_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_glacct_seq` (`id`) VALUES
 	(9);
@@ -5111,22 +5159,7 @@ INSERT INTO `vtiger_homestuff` (`stuffid`, `stuffsequence`, `stufftype`, `userid
 	(12, 12, 'Default', 1, 1, 'Top Purchase Orders'),
 	(13, 13, 'Default', 1, 1, 'Pending Activities'),
 	(14, 14, 'Default', 1, 1, 'My Recent FAQs'),
-	(15, 15, 'Tag Cloud', 1, 0, 'Tag Cloud'),
-	(16, 1, 'Default', 5, 1, 'Top Accounts'),
-	(17, 2, 'Default', 5, 1, 'Home Page Dashboard'),
-	(18, 3, 'Default', 5, 0, 'Top Potentials'),
-	(19, 4, 'Default', 5, 1, 'Top Quotes'),
-	(20, 5, 'Default', 5, 0, 'Key Metrics'),
-	(21, 6, 'Default', 5, 1, 'Top Trouble Tickets'),
-	(22, 7, 'Default', 5, 0, 'Upcoming Activities'),
-	(23, 8, 'Default', 5, 1, 'My Group Allocation'),
-	(24, 9, 'Default', 5, 1, 'Top Sales Orders'),
-	(25, 10, 'Default', 5, 1, 'Top Invoices'),
-	(26, 11, 'Default', 5, 1, 'My New Leads'),
-	(27, 12, 'Default', 5, 1, 'Top Purchase Orders'),
-	(28, 13, 'Default', 5, 1, 'Pending Activities'),
-	(29, 14, 'Default', 5, 1, 'My Recent FAQs'),
-	(30, 15, 'Tag Cloud', 5, 1, 'Tag Cloud');
+	(15, 15, 'Tag Cloud', 1, 0, 'Tag Cloud');
 /*!40000 ALTER TABLE `vtiger_homestuff` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_homestuff_seq
@@ -5134,7 +5167,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_homestuff_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_homestuff_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_homestuff_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_homestuff_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_homestuff_seq` (`id`) VALUES
 	(30);
@@ -5172,7 +5205,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_hour_format_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_hour_format_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_hour_format_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_hour_format_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_hour_format_seq` (`id`) VALUES
 	(2);
@@ -5240,7 +5273,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_industry` (
   UNIQUE KEY `industry_industry_idx` (`industry`)
 ) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_industry: ~32 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_industry: ~31 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_industry` DISABLE KEYS */;
 INSERT INTO `vtiger_industry` (`industryid`, `industry`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'Apparel', 1, 61, 1),
@@ -5281,7 +5314,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_industry_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_industry_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_industry_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_industry_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_industry_seq` (`id`) VALUES
 	(32);
@@ -5311,7 +5344,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_inventorynotification_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_inventorynotification_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_inventorynotification_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_inventorynotification_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_inventorynotification_seq` (`id`) VALUES
 	(3);
@@ -5347,7 +5380,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_inventoryproductrel_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_inventoryproductrel_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_inventoryproductrel_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_inventoryproductrel_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_inventoryproductrel_seq` (`id`) VALUES
 	(0);
@@ -5401,7 +5434,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_inventorytaxinfo_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_inventorytaxinfo_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_inventorytaxinfo_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_inventorytaxinfo_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_inventorytaxinfo_seq` (`id`) VALUES
 	(3);
@@ -5415,7 +5448,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_inventory_tandc` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_inventory_tandc: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_inventory_tandc: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_inventory_tandc` DISABLE KEYS */;
 INSERT INTO `vtiger_inventory_tandc` (`id`, `type`, `tandc`) VALUES
 	(1, 'Inventory', '\n - Unless otherwise agreed in writing by the supplier all invoices are payable within thirty (30) days of the date of invoice, in the currency of the invoice, drawn on a bank based in India or by such other method as is agreed in advance by the Supplier.\n\n - All prices are not inclusive of VAT which shall be payable in addition by the Customer at the applicable rate.');
@@ -5426,7 +5459,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_inventory_tandc_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_inventory_tandc_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_inventory_tandc_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_inventory_tandc_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_inventory_tandc_seq` (`id`) VALUES
 	(1);
@@ -5570,7 +5603,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_invoicestatus_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_invoicestatus_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_invoicestatus_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_invoicestatus_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_invoicestatus_seq` (`id`) VALUES
 	(7);
@@ -5631,7 +5664,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_language_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_language_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_language_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_language_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_language_seq` (`id`) VALUES
 	(16);
@@ -5655,6 +5688,8 @@ CREATE TABLE IF NOT EXISTS `vtiger_leadaddress` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leadaddress: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_leadaddress` DISABLE KEYS */;
+INSERT INTO `vtiger_leadaddress` (`leadaddressid`, `city`, `code`, `state`, `pobox`, `country`, `phone`, `mobile`, `fax`, `lane`, `leadaddresstype`) VALUES
+	(6, '', '', '', '', '', '', '', '', '', 'Billing');
 /*!40000 ALTER TABLE `vtiger_leadaddress` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_leaddetails
@@ -5701,6 +5736,8 @@ CREATE TABLE IF NOT EXISTS `vtiger_leaddetails` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leaddetails: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_leaddetails` DISABLE KEYS */;
+INSERT INTO `vtiger_leaddetails` (`leadid`, `lead_no`, `email`, `interest`, `firstname`, `salutation`, `lastname`, `company`, `annualrevenue`, `industry`, `campaign`, `rating`, `leadstatus`, `leadsource`, `converted`, `designation`, `licencekeystatus`, `space`, `comments`, `priority`, `demorequest`, `partnercontact`, `productversion`, `product`, `maildate`, `nextstepdate`, `fundingsituation`, `purpose`, `evaluationstatus`, `transferdate`, `revenuetype`, `noofemployees`, `secondaryemail`, `assignleadchk`, `emailoptout`) VALUES
+	(6, 'LEA1', '', NULL, '', '', 'ttstsd', '', 0.00000000, '', NULL, '', '', '', 0, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', 0, '0');
 /*!40000 ALTER TABLE `vtiger_leaddetails` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_leadscf
@@ -5711,6 +5748,8 @@ CREATE TABLE IF NOT EXISTS `vtiger_leadscf` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leadscf: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_leadscf` DISABLE KEYS */;
+INSERT INTO `vtiger_leadscf` (`leadid`) VALUES
+	(6);
 /*!40000 ALTER TABLE `vtiger_leadscf` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_leadsource
@@ -5723,7 +5762,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_leadsource` (
   PRIMARY KEY (`leadsourceid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leadsource: ~13 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leadsource: ~12 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_leadsource` DISABLE KEYS */;
 INSERT INTO `vtiger_leadsource` (`leadsourceid`, `leadsource`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'Cold Call', 1, 99, 1),
@@ -5745,7 +5784,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_leadsource_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leadsource_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leadsource_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_leadsource_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_leadsource_seq` (`id`) VALUES
 	(13);
@@ -5775,7 +5814,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_leadstatus` (
   PRIMARY KEY (`leadstatusid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leadstatus: ~12 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leadstatus: ~11 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_leadstatus` DISABLE KEYS */;
 INSERT INTO `vtiger_leadstatus` (`leadstatusid`, `leadstatus`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'Attempted to Contact', 1, 112, 1),
@@ -5796,7 +5835,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_leadstatus_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leadstatus_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leadstatus_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_leadstatus_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_leadstatus_seq` (`id`) VALUES
 	(12);
@@ -5814,6 +5853,8 @@ CREATE TABLE IF NOT EXISTS `vtiger_leadsubdetails` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leadsubdetails: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_leadsubdetails` DISABLE KEYS */;
+INSERT INTO `vtiger_leadsubdetails` (`leadsubscriptionid`, `website`, `callornot`, `readornot`, `empct`) VALUES
+	(6, '', 0, 0, 0);
 /*!40000 ALTER TABLE `vtiger_leadsubdetails` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_lead_view
@@ -5838,7 +5879,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_lead_view_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_lead_view_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_lead_view_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_lead_view_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_lead_view_seq` (`id`) VALUES
 	(3);
@@ -5942,7 +5983,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_links_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_links_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_links_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_links_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_links_seq` (`id`) VALUES
 	(106);
@@ -5959,10 +6000,11 @@ CREATE TABLE IF NOT EXISTS `vtiger_loginhistory` (
   PRIMARY KEY (`login_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_loginhistory: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_loginhistory: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_loginhistory` DISABLE KEYS */;
 INSERT INTO `vtiger_loginhistory` (`login_id`, `user_name`, `user_ip`, `logout_time`, `login_time`, `status`) VALUES
-	(1, 'admin', '::1', '0000-00-00 00:00:00', '2021-06-03 04:24:15', 'Signed in');
+	(1, 'admin', '::1', '0000-00-00 00:00:00', '2021-06-03 04:24:15', 'Signed in'),
+	(2, 'admin', '::1', '0000-00-00 00:00:00', '2021-06-03 04:51:18', 'Signed in');
 /*!40000 ALTER TABLE `vtiger_loginhistory` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_mailer_queue
@@ -6196,7 +6238,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_manufacturer` (
   UNIQUE KEY `manufacturer_manufacturer_idx` (`manufacturer`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_manufacturer: ~4 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_manufacturer: ~3 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_manufacturer` DISABLE KEYS */;
 INSERT INTO `vtiger_manufacturer` (`manufacturerid`, `manufacturer`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'AltvetPet Inc.', 1, 124, 1),
@@ -6209,7 +6251,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_manufacturer_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_manufacturer_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_manufacturer_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_manufacturer_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_manufacturer_seq` (`id`) VALUES
 	(4);
@@ -6276,15 +6318,15 @@ CREATE TABLE IF NOT EXISTS `vtiger_modentity_num` (
   KEY `semodule_active_idx` (`semodule`,`active`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_modentity_num: ~20 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_modentity_num: ~21 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_modentity_num` DISABLE KEYS */;
 INSERT INTO `vtiger_modentity_num` (`num_id`, `semodule`, `prefix`, `start_id`, `cur_id`, `active`) VALUES
-	(1, 'Leads', 'LEA', '1', '1', '1'),
-	(2, 'Accounts', 'ACC', '1', '1', '1'),
+	(1, 'Leads', 'LEA', '1', '2', '1'),
+	(2, 'Accounts', 'ACC', '1', '2', '1'),
 	(3, 'Campaigns', 'CAM', '1', '1', '1'),
-	(4, 'Contacts', 'CON', '1', '1', '1'),
-	(5, 'Potentials', 'POT', '1', '1', '1'),
-	(6, 'HelpDesk', 'TT', '1', '1', '1'),
+	(4, 'Contacts', 'CON', '1', '3', '1'),
+	(5, 'Potentials', 'POT', '1', '2', '1'),
+	(6, 'HelpDesk', 'TT', '1', '4', '1'),
 	(7, 'Quotes', 'QUO', '1', '1', '1'),
 	(8, 'SalesOrder', 'SO', '1', '1', '1'),
 	(9, 'PurchaseOrder', 'PO', '1', '1', '1'),
@@ -6299,7 +6341,7 @@ INSERT INTO `vtiger_modentity_num` (`num_id`, `semodule`, `prefix`, `start_id`, 
 	(18, 'Assets', 'ASSET', '1', '1', '1'),
 	(19, 'ProjectMilestone', 'PM', '1', '1', '1'),
 	(20, 'ProjectTask', 'PT', '1', '1', '1'),
-	(21, 'Project', 'PROJ', '1', '1', '1');
+	(21, 'Project', 'PROJ', '1', '2', '1');
 /*!40000 ALTER TABLE `vtiger_modentity_num` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_modentity_num_seq
@@ -6307,7 +6349,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_modentity_num_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_modentity_num_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_modentity_num_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_modentity_num_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_modentity_num_seq` (`id`) VALUES
 	(21);
@@ -6328,6 +6370,30 @@ CREATE TABLE IF NOT EXISTS `vtiger_modtracker_basic` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_modtracker_basic: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_modtracker_basic` DISABLE KEYS */;
+INSERT INTO `vtiger_modtracker_basic` (`id`, `crmid`, `module`, `whodid`, `changedon`, `status`) VALUES
+	(1, 2, 'Accounts', 1, '2021-06-03 04:51:43', 2),
+	(2, 3, 'HelpDesk', 1, '2021-06-03 05:49:20', 2),
+	(3, 3, 'HelpDesk', 1, '2021-06-03 05:58:53', 0),
+	(4, 4, 'Contacts', 1, '2021-06-03 06:02:03', 2),
+	(5, 4, 'Contacts', 1, '2021-06-03 06:03:04', 1),
+	(6, 5, 'Events', 1, '2021-06-03 06:19:54', 2),
+	(7, 5, 'Events', 1, '2021-06-03 06:20:22', 1),
+	(8, 6, 'Leads', 1, '2021-06-03 06:20:33', 2),
+	(9, 6, 'Leads', 1, '2021-06-03 06:21:07', 1),
+	(10, 7, 'Potentials', 1, '2021-06-03 06:21:23', 2),
+	(11, 7, 'Potentials', 1, '2021-06-03 06:22:31', 1),
+	(12, 8, 'Project', 1, '2021-06-03 06:37:55', 2),
+	(13, 8, 'Project', 1, '2021-06-03 06:38:24', 1),
+	(14, 3, 'HelpDesk', 1, '2021-06-03 06:47:12', 0),
+	(15, 3, 'HelpDesk', 1, '2021-06-03 06:47:17', 0),
+	(16, 9, 'Contacts', 1, '2021-06-03 06:50:42', 2),
+	(17, 9, 'Contacts', 1, '2021-06-03 06:52:15', 1),
+	(18, 10, 'HelpDesk', 1, '2021-06-03 07:01:51', 2),
+	(19, 2, 'Accounts', 1, '2021-06-03 07:01:52', 4),
+	(20, 11, 'HelpDesk', 1, '2021-06-03 07:02:10', 2),
+	(21, 2, 'Accounts', 1, '2021-06-03 07:02:11', 4),
+	(22, 11, 'HelpDesk', 1, '2021-06-03 07:03:03', 1),
+	(23, 10, 'HelpDesk', 1, '2021-06-03 07:03:03', 1);
 /*!40000 ALTER TABLE `vtiger_modtracker_basic` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_modtracker_detail
@@ -6341,6 +6407,108 @@ CREATE TABLE IF NOT EXISTS `vtiger_modtracker_detail` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_modtracker_detail: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_modtracker_detail` DISABLE KEYS */;
+INSERT INTO `vtiger_modtracker_detail` (`id`, `fieldname`, `prevalue`, `postvalue`) VALUES
+	(1, 'accountname', NULL, 'Teste'),
+	(1, 'account_no', NULL, 'ACC1'),
+	(1, 'annual_revenue', NULL, '0.00000000'),
+	(1, 'assigned_user_id', NULL, '1'),
+	(1, 'createdtime', NULL, '2021-06-03 04:51:43'),
+	(1, 'modifiedby', NULL, '1'),
+	(1, 'record_id', NULL, '2'),
+	(1, 'record_module', NULL, 'Accounts'),
+	(2, 'ticket_no', NULL, 'TT1'),
+	(2, 'assigned_user_id', NULL, '1'),
+	(2, 'ticketstatus', NULL, 'Open'),
+	(2, 'hours', NULL, '0.00000000'),
+	(2, 'days', NULL, '0.00000000'),
+	(2, 'createdtime', NULL, '2021-06-03 05:49:20'),
+	(2, 'modifiedby', NULL, '1'),
+	(2, 'ticket_title', NULL, 'Rest'),
+	(2, 'record_id', NULL, '3'),
+	(2, 'record_module', NULL, 'HelpDesk'),
+	(3, 'parent_id', '0', '2'),
+	(4, 'contact_no', NULL, 'CON1'),
+	(4, 'lastname', NULL, 'tetst'),
+	(4, 'assigned_user_id', NULL, '1'),
+	(4, 'createdtime', NULL, '2021-06-03 06:02:03'),
+	(4, 'modifiedby', NULL, '1'),
+	(4, 'support_start_date', NULL, '2021-06-03'),
+	(4, 'support_end_date', NULL, '2022-06-03'),
+	(4, 'record_id', NULL, '4'),
+	(4, 'record_module', NULL, 'Contacts'),
+	(6, 'subject', NULL, 'teste'),
+	(6, 'assigned_user_id', NULL, '1'),
+	(6, 'date_start', NULL, '2021-06-03'),
+	(6, 'time_start', NULL, '06:19:00'),
+	(6, 'time_end', NULL, '06:24:00'),
+	(6, 'due_date', NULL, '2021-06-03'),
+	(6, 'eventstatus', NULL, 'Planned'),
+	(6, 'createdtime', NULL, '2021-06-03 06:19:54'),
+	(6, 'activitytype', NULL, 'Call'),
+	(6, 'visibility', NULL, 'Public'),
+	(6, 'duration_minutes', NULL, '5'),
+	(6, 'modifiedby', NULL, '1'),
+	(6, 'created_user_id', NULL, '1'),
+	(6, 'record_id', NULL, '5'),
+	(6, 'record_module', NULL, 'Events'),
+	(8, 'lead_no', NULL, 'LEA1'),
+	(8, 'lastname', NULL, 'ttstsd'),
+	(8, 'annualrevenue', NULL, '0.00000000'),
+	(8, 'assigned_user_id', NULL, '1'),
+	(8, 'createdtime', NULL, '2021-06-03 06:20:33'),
+	(8, 'modifiedby', NULL, '1'),
+	(8, 'record_id', NULL, '6'),
+	(8, 'record_module', NULL, 'Leads'),
+	(10, 'potentialname', NULL, 'asdf'),
+	(10, 'potential_no', NULL, 'POT1'),
+	(10, 'amount', NULL, '0.00000000'),
+	(10, 'closingdate', NULL, '2021-06-10'),
+	(10, 'sales_stage', NULL, 'Qualification'),
+	(10, 'assigned_user_id', NULL, '1'),
+	(10, 'probability', NULL, '0.000'),
+	(10, 'createdtime', NULL, '2021-06-03 06:21:23'),
+	(10, 'modifiedby', NULL, '1'),
+	(10, 'forecast_amount', NULL, '0.00000000'),
+	(10, 'record_id', NULL, '7'),
+	(10, 'record_module', NULL, 'Potentials'),
+	(12, 'projectname', NULL, 'Teste'),
+	(12, 'assigned_user_id', NULL, '1'),
+	(12, 'project_no', NULL, 'PROJ1'),
+	(12, 'createdtime', NULL, '2021-06-03 06:37:55'),
+	(12, 'modifiedby', NULL, '1'),
+	(12, 'record_id', NULL, '8'),
+	(12, 'record_module', NULL, 'Project'),
+	(14, 'ticketseverities', '', 'Critical'),
+	(15, 'ticketpriorities', '', 'Urgent'),
+	(16, 'contact_no', NULL, 'CON2'),
+	(16, 'lastname', NULL, 'asdf'),
+	(16, 'assigned_user_id', NULL, '1'),
+	(16, 'createdtime', NULL, '2021-06-03 06:50:42'),
+	(16, 'modifiedby', NULL, '1'),
+	(16, 'support_start_date', NULL, '2021-06-03'),
+	(16, 'support_end_date', NULL, '2022-06-03'),
+	(16, 'record_id', NULL, '9'),
+	(16, 'record_module', NULL, 'Contacts'),
+	(18, 'ticket_no', NULL, 'TT2'),
+	(18, 'assigned_user_id', NULL, '1'),
+	(18, 'ticketstatus', NULL, 'Wait For Response'),
+	(18, 'hours', NULL, '0.00000000'),
+	(18, 'days', NULL, '0.00000000'),
+	(18, 'createdtime', NULL, '2021-06-03 07:01:51'),
+	(18, 'modifiedby', NULL, '1'),
+	(18, 'ticket_title', NULL, 'Teste 2'),
+	(18, 'record_id', NULL, '10'),
+	(18, 'record_module', NULL, 'HelpDesk'),
+	(20, 'ticket_no', NULL, 'TT3'),
+	(20, 'assigned_user_id', NULL, '1'),
+	(20, 'ticketstatus', NULL, 'Closed'),
+	(20, 'hours', NULL, '0.00000000'),
+	(20, 'days', NULL, '0.00000000'),
+	(20, 'createdtime', NULL, '2021-06-03 07:02:10'),
+	(20, 'modifiedby', NULL, '1'),
+	(20, 'ticket_title', NULL, 'Teste 3'),
+	(20, 'record_id', NULL, '11'),
+	(20, 'record_module', NULL, 'HelpDesk');
 /*!40000 ALTER TABLE `vtiger_modtracker_detail` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_modtracker_relations
@@ -6354,6 +6522,9 @@ CREATE TABLE IF NOT EXISTS `vtiger_modtracker_relations` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_modtracker_relations: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_modtracker_relations` DISABLE KEYS */;
+INSERT INTO `vtiger_modtracker_relations` (`id`, `targetmodule`, `targetid`, `changedon`) VALUES
+	(19, 'HelpDesk', 10, '2021-06-03 07:01:52'),
+	(21, 'HelpDesk', 11, '2021-06-03 07:02:11');
 /*!40000 ALTER TABLE `vtiger_modtracker_relations` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_modtracker_tabs
@@ -6487,7 +6658,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_notificationscheduler_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_notificationscheduler_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_notificationscheduler_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_notificationscheduler_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_notificationscheduler_seq` (`id`) VALUES
 	(8);
@@ -6518,7 +6689,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_no_of_currency_decimals_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_no_of_currency_decimals_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_no_of_currency_decimals_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_no_of_currency_decimals_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_no_of_currency_decimals_seq` (`id`) VALUES
 	(7);
@@ -6550,7 +6721,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_opportunity_type` (
   UNIQUE KEY `opportunity_type_opportunity_type_idx` (`opportunity_type`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_opportunity_type: ~3 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_opportunity_type: ~2 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_opportunity_type` DISABLE KEYS */;
 INSERT INTO `vtiger_opportunity_type` (`opptypeid`, `opportunity_type`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'Existing Business', 1, 128, 1),
@@ -6562,7 +6733,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_opportunity_type_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_opportunity_type_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_opportunity_type_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_opportunity_type_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_opportunity_type_seq` (`id`) VALUES
 	(3);
@@ -6586,7 +6757,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_organizationdetails` (
   PRIMARY KEY (`organization_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_organizationdetails: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_organizationdetails: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_organizationdetails` DISABLE KEYS */;
 INSERT INTO `vtiger_organizationdetails` (`organization_id`, `organizationname`, `address`, `city`, `state`, `country`, `code`, `phone`, `fax`, `website`, `logoname`, `logo`, `vatid`) VALUES
 	(1, 'vtiger', '95, 12th Main Road, 3rd Block, Rajajinagar', 'Bangalore', 'Karnataka', 'India', '560010', '+91 9243602352', '+91 9243602352', 'www.vtiger.com', 'vtiger-crm-logo.png', NULL, '1234-5678-9012');
@@ -6597,7 +6768,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_organizationdetails_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_organizationdetails_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_organizationdetails_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_organizationdetails_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_organizationdetails_seq` (`id`) VALUES
 	(1);
@@ -6610,7 +6781,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_org_share_action2tab` (
   PRIMARY KEY (`share_action_id`,`tabid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_org_share_action2tab: ~96 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_org_share_action2tab: ~100 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_org_share_action2tab` DISABLE KEYS */;
 INSERT INTO `vtiger_org_share_action2tab` (`share_action_id`, `tabid`) VALUES
 	(0, 2),
@@ -6759,7 +6930,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_othereventduration_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_othereventduration_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_othereventduration_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_othereventduration_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_othereventduration_seq` (`id`) VALUES
 	(5);
@@ -6796,7 +6967,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_parenttabrel` (
   KEY `parenttabrel_tabid_parenttabid_idx` (`tabid`,`parenttabid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_parenttabrel: ~63 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_parenttabrel: ~65 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_parenttabrel` DISABLE KEYS */;
 INSERT INTO `vtiger_parenttabrel` (`parenttabid`, `tabid`, `sequence`) VALUES
 	(1, 9, 2),
@@ -6887,7 +7058,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_payment_duration_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_payment_duration_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_payment_duration_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_payment_duration_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_payment_duration_seq` (`id`) VALUES
 	(3);
@@ -6964,7 +7135,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_picklist` (
   UNIQUE KEY `picklist_name_idx` (`name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=49 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_picklist: ~46 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_picklist: ~48 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_picklist` DISABLE KEYS */;
 INSERT INTO `vtiger_picklist` (`picklistid`, `name`) VALUES
 	(1, 'accounttype'),
@@ -7022,7 +7193,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_picklistvalues_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_picklistvalues_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_picklistvalues_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_picklistvalues_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_picklistvalues_seq` (`id`) VALUES
 	(302);
@@ -7049,7 +7220,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_picklist_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_picklist_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_picklist_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_picklist_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_picklist_seq` (`id`) VALUES
 	(48);
@@ -7163,7 +7334,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_postatus_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_postatus_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_postatus_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_postatus_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_postatus_seq` (`id`) VALUES
 	(5);
@@ -7208,6 +7379,8 @@ CREATE TABLE IF NOT EXISTS `vtiger_potential` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_potential: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_potential` DISABLE KEYS */;
+INSERT INTO `vtiger_potential` (`potentialid`, `potential_no`, `related_to`, `potentialname`, `amount`, `currency`, `closingdate`, `typeofrevenue`, `nextstep`, `private`, `probability`, `campaignid`, `sales_stage`, `potentialtype`, `leadsource`, `productid`, `productversion`, `quotationref`, `partnercontact`, `remarks`, `runtimefee`, `followupdate`, `evaluationstatus`, `description`, `forecastcategory`, `outcomeanalysis`, `forecast_amount`, `isconvertedfromlead`, `contact_id`) VALUES
+	(7, 'POT1', 0, 'asdf', 0.00000000, NULL, '2021-06-10', NULL, '', 0, 0.000, 0, 'Qualification', '', '', NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, 0, 0, 0.00000000, '0', 0);
 /*!40000 ALTER TABLE `vtiger_potential` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_potentialscf
@@ -7218,6 +7391,8 @@ CREATE TABLE IF NOT EXISTS `vtiger_potentialscf` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_potentialscf: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_potentialscf` DISABLE KEYS */;
+INSERT INTO `vtiger_potentialscf` (`potentialid`) VALUES
+	(7);
 /*!40000 ALTER TABLE `vtiger_potentialscf` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_potstagehistory
@@ -7302,7 +7477,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_productcategory` (
   UNIQUE KEY `productcategory_productcategory_idx` (`productcategory`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_productcategory: ~4 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_productcategory: ~3 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_productcategory` DISABLE KEYS */;
 INSERT INTO `vtiger_productcategory` (`productcategoryid`, `productcategory`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'Hardware', 1, 136, 1),
@@ -7315,7 +7490,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_productcategory_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_productcategory_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_productcategory_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_productcategory_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_productcategory_seq` (`id`) VALUES
 	(4);
@@ -7428,7 +7603,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_profile2field` (
   KEY `profile2field_visible_profileid_idx` (`visible`,`profileid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_profile2field: ~2.776 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_profile2field: ~2.796 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_profile2field` DISABLE KEYS */;
 INSERT INTO `vtiger_profile2field` (`profileid`, `tabid`, `fieldid`, `visible`, `readonly`) VALUES
 	(1, 6, 1, 0, 0),
@@ -10794,7 +10969,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_profile2tab` (
   KEY `profile2tab_profileid_tabid_idx` (`profileid`,`tabid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_profile2tab: ~168 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_profile2tab: ~172 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_profile2tab` DISABLE KEYS */;
 INSERT INTO `vtiger_profile2tab` (`profileid`, `tabid`, `permissions`) VALUES
 	(1, 1, 0),
@@ -11239,7 +11414,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_profile_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_profile_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_profile_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_profile_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_profile_seq` (`id`) VALUES
 	(4);
@@ -11255,7 +11430,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_progress` (
   PRIMARY KEY (`progressid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_progress: ~11 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_progress: ~10 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_progress` DISABLE KEYS */;
 INSERT INTO `vtiger_progress` (`progressid`, `progress`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, '10%', 1, 278, 2),
@@ -11275,7 +11450,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_progress_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_progress_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_progress_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_progress_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_progress_seq` (`id`) VALUES
 	(11);
@@ -11300,6 +11475,8 @@ CREATE TABLE IF NOT EXISTS `vtiger_project` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_project: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_project` DISABLE KEYS */;
+INSERT INTO `vtiger_project` (`projectid`, `projectname`, `project_no`, `startdate`, `targetenddate`, `actualenddate`, `targetbudget`, `projecturl`, `projectstatus`, `projectpriority`, `projecttype`, `progress`, `linktoaccountscontacts`) VALUES
+	(8, 'Teste', 'PROJ1', NULL, NULL, NULL, '', '', '', '', '', '', '');
 /*!40000 ALTER TABLE `vtiger_project` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_projectcf
@@ -11310,6 +11487,8 @@ CREATE TABLE IF NOT EXISTS `vtiger_projectcf` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projectcf: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_projectcf` DISABLE KEYS */;
+INSERT INTO `vtiger_projectcf` (`projectid`) VALUES
+	(8);
 /*!40000 ALTER TABLE `vtiger_projectcf` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_projectmilestone
@@ -11347,7 +11526,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_projectmilestonetype` (
   PRIMARY KEY (`projectmilestonetypeid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projectmilestonetype: ~4 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projectmilestonetype: ~3 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_projectmilestonetype` DISABLE KEYS */;
 INSERT INTO `vtiger_projectmilestonetype` (`projectmilestonetypeid`, `projectmilestonetype`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'administrative', 1, 238, 2),
@@ -11360,7 +11539,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_projectmilestonetype_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projectmilestonetype_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projectmilestonetype_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_projectmilestonetype_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_projectmilestonetype_seq` (`id`) VALUES
 	(4);
@@ -11376,7 +11555,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_projectpriority` (
   PRIMARY KEY (`projectpriorityid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projectpriority: ~4 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projectpriority: ~3 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_projectpriority` DISABLE KEYS */;
 INSERT INTO `vtiger_projectpriority` (`projectpriorityid`, `projectpriority`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'low', 1, 274, 2),
@@ -11389,7 +11568,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_projectpriority_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projectpriority_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projectpriority_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_projectpriority_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_projectpriority_seq` (`id`) VALUES
 	(4);
@@ -11405,7 +11584,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_projectstatus` (
   PRIMARY KEY (`projectstatusid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projectstatus: ~9 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projectstatus: ~8 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_projectstatus` DISABLE KEYS */;
 INSERT INTO `vtiger_projectstatus` (`projectstatusid`, `projectstatus`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'prospecting', 1, 261, 2),
@@ -11423,7 +11602,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_projectstatus_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projectstatus_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projectstatus_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_projectstatus_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_projectstatus_seq` (`id`) VALUES
 	(9);
@@ -11470,7 +11649,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_projecttaskpriority` (
   PRIMARY KEY (`projecttaskpriorityid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projecttaskpriority: ~4 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projecttaskpriority: ~3 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_projecttaskpriority` DISABLE KEYS */;
 INSERT INTO `vtiger_projecttaskpriority` (`projecttaskpriorityid`, `projecttaskpriority`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'low', 1, 246, 2),
@@ -11483,7 +11662,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_projecttaskpriority_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projecttaskpriority_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projecttaskpriority_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_projecttaskpriority_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_projecttaskpriority_seq` (`id`) VALUES
 	(4);
@@ -11499,7 +11678,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_projecttaskprogress` (
   PRIMARY KEY (`projecttaskprogressid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projecttaskprogress: ~11 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projecttaskprogress: ~10 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_projecttaskprogress` DISABLE KEYS */;
 INSERT INTO `vtiger_projecttaskprogress` (`projecttaskprogressid`, `projecttaskprogress`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, '10%', 1, 250, 2),
@@ -11519,7 +11698,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_projecttaskprogress_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projecttaskprogress_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projecttaskprogress_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_projecttaskprogress_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_projecttaskprogress_seq` (`id`) VALUES
 	(11);
@@ -11550,7 +11729,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_projecttaskstatus_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projecttaskstatus_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projecttaskstatus_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_projecttaskstatus_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_projecttaskstatus_seq` (`id`) VALUES
 	(6);
@@ -11566,7 +11745,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_projecttasktype` (
   PRIMARY KEY (`projecttasktypeid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projecttasktype: ~4 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projecttasktype: ~3 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_projecttasktype` DISABLE KEYS */;
 INSERT INTO `vtiger_projecttasktype` (`projecttasktypeid`, `projecttasktype`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'administrative', 1, 242, 2),
@@ -11579,7 +11758,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_projecttasktype_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projecttasktype_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projecttasktype_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_projecttasktype_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_projecttasktype_seq` (`id`) VALUES
 	(4);
@@ -11595,7 +11774,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_projecttype` (
   PRIMARY KEY (`projecttypeid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projecttype: ~4 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projecttype: ~3 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_projecttype` DISABLE KEYS */;
 INSERT INTO `vtiger_projecttype` (`projecttypeid`, `projecttype`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'administrative', 1, 270, 2),
@@ -11608,7 +11787,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_projecttype_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projecttype_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projecttype_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_projecttype_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_projecttype_seq` (`id`) VALUES
 	(4);
@@ -11784,7 +11963,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_quotestage_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_quotestage_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_quotestage_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_quotestage_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_quotestage_seq` (`id`) VALUES
 	(5);
@@ -11800,7 +11979,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_rating` (
   PRIMARY KEY (`rating_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_rating: ~6 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_rating: ~5 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_rating` DISABLE KEYS */;
 INSERT INTO `vtiger_rating` (`rating_id`, `rating`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'Acquired', 1, 145, 1),
@@ -11815,7 +11994,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_rating_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_rating_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_rating_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_rating_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_rating_seq` (`id`) VALUES
 	(6);
@@ -11847,7 +12026,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_recurringtype` (
   UNIQUE KEY `recurringtype_status_idx` (`recurringtype`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_recurringtype: ~5 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_recurringtype: ~4 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_recurringtype` DISABLE KEYS */;
 INSERT INTO `vtiger_recurringtype` (`recurringeventid`, `recurringtype`, `sortorderid`, `presence`) VALUES
 	(2, 'Daily', 1, 1),
@@ -11861,7 +12040,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_recurringtype_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_recurringtype_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_recurringtype_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_recurringtype_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_recurringtype_seq` (`id`) VALUES
 	(5);
@@ -11875,7 +12054,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_recurring_frequency` (
   `presence` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_recurring_frequency: ~6 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_recurring_frequency: ~5 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_recurring_frequency` DISABLE KEYS */;
 INSERT INTO `vtiger_recurring_frequency` (`recurring_frequency_id`, `recurring_frequency`, `sortorderid`, `presence`) VALUES
 	(2, 'Daily', 1, 1),
@@ -11890,7 +12069,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_recurring_frequency_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_recurring_frequency_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_recurring_frequency_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_recurring_frequency_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_recurring_frequency_seq` (`id`) VALUES
 	(6);
@@ -11910,7 +12089,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_relatedlists` (
   KEY `relatedlists_relation_id_idx` (`relation_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_relatedlists: ~131 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_relatedlists: ~133 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_relatedlists` DISABLE KEYS */;
 INSERT INTO `vtiger_relatedlists` (`relation_id`, `tabid`, `related_tabid`, `name`, `sequence`, `label`, `presence`, `actions`) VALUES
 	(1, 6, 4, 'get_contacts', 1, 'Contacts', 0, 'add'),
@@ -12060,6 +12239,9 @@ CREATE TABLE IF NOT EXISTS `vtiger_relatedlists_rb` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_relatedlists_rb: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_relatedlists_rb` DISABLE KEYS */;
+INSERT INTO `vtiger_relatedlists_rb` (`entityid`, `action`, `rel_table`, `rel_column`, `ref_column`, `related_crm_ids`) VALUES
+	(4, 'update', 'vtiger_crmentity', 'deleted', 'crmid', ''),
+	(9, 'update', 'vtiger_crmentity', 'deleted', 'crmid', '');
 /*!40000 ALTER TABLE `vtiger_relatedlists_rb` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_relatedlists_seq
@@ -12067,7 +12249,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_relatedlists_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_relatedlists_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_relatedlists_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_relatedlists_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_relatedlists_seq` (`id`) VALUES
 	(139);
@@ -12135,7 +12317,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_reminder_interval` (
   PRIMARY KEY (`reminder_intervalid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_reminder_interval: ~8 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_reminder_interval: ~7 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_reminder_interval` DISABLE KEYS */;
 INSERT INTO `vtiger_reminder_interval` (`reminder_intervalid`, `reminder_interval`, `sortorderid`, `presence`) VALUES
 	(2, '1 Minute', 1, 1),
@@ -12152,7 +12334,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_reminder_interval_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_reminder_interval_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_reminder_interval_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_reminder_interval_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_reminder_interval_seq` (`id`) VALUES
 	(8);
@@ -12247,7 +12429,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_reportfolder` (
   PRIMARY KEY (`folderid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_reportfolder: ~11 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_reportfolder: ~12 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_reportfolder` DISABLE KEYS */;
 INSERT INTO `vtiger_reportfolder` (`folderid`, `foldername`, `description`, `state`) VALUES
 	(1, 'Account and Contact Reports', 'Account and Contact Reports', 'SAVED'),
@@ -12397,7 +12579,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_role2picklist` (
   KEY `role2picklist_roleid_picklistid_idx` (`roleid`,`picklistid`,`picklistvalueid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_role2picklist: ~1.470 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_role2picklist: ~1.500 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_role2picklist` DISABLE KEYS */;
 INSERT INTO `vtiger_role2picklist` (`roleid`, `picklistvalueid`, `picklistid`, `sortid`) VALUES
 	('H1', 1, 1, 0),
@@ -13924,7 +14106,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_role_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_role_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_role_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_role_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_role_seq` (`id`) VALUES
 	(5);
@@ -13952,7 +14134,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_rowheight_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_rowheight_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_rowheight_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_rowheight_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_rowheight_seq` (`id`) VALUES
 	(3);
@@ -13983,6 +14165,8 @@ CREATE TABLE IF NOT EXISTS `vtiger_salesmanactivityrel` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_salesmanactivityrel: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_salesmanactivityrel` DISABLE KEYS */;
+INSERT INTO `vtiger_salesmanactivityrel` (`smid`, `activityid`) VALUES
+	(1, 5);
 /*!40000 ALTER TABLE `vtiger_salesmanactivityrel` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_salesmanattachmentsrel
@@ -14093,7 +14277,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_sales_stage_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_sales_stage_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_sales_stage_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_sales_stage_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_sales_stage_seq` (`id`) VALUES
 	(10);
@@ -14109,7 +14293,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_salutationtype` (
   PRIMARY KEY (`salutationid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_salutationtype: ~6 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_salutationtype: ~5 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_salutationtype` DISABLE KEYS */;
 INSERT INTO `vtiger_salutationtype` (`salutationid`, `salutationtype`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'Mr.', 1, 161, 1),
@@ -14124,7 +14308,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_salutationtype_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_salutationtype_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_salutationtype_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_salutationtype_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_salutationtype_seq` (`id`) VALUES
 	(6);
@@ -14180,7 +14364,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_seactivityrel_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_seactivityrel_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_seactivityrel_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_seactivityrel_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_seactivityrel_seq` (`id`) VALUES
 	(1);
@@ -14412,7 +14596,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_selectquery_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_selectquery_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_selectquery_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_selectquery_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_selectquery_seq` (`id`) VALUES
 	(25);
@@ -14482,7 +14666,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_servicecategory` (
   PRIMARY KEY (`servicecategoryid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_servicecategory: ~6 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_servicecategory: ~5 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_servicecategory` DISABLE KEYS */;
 INSERT INTO `vtiger_servicecategory` (`servicecategoryid`, `servicecategory`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'Support', 1, 230, 2),
@@ -14497,7 +14681,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_servicecategory_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_servicecategory_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_servicecategory_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_servicecategory_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_servicecategory_seq` (`id`) VALUES
 	(6);
@@ -14570,7 +14754,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_service_usageunit_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_service_usageunit_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_service_usageunit_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_service_usageunit_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_service_usageunit_seq` (`id`) VALUES
 	(3);
@@ -14597,7 +14781,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_settings_blocks` (
   PRIMARY KEY (`blockid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_settings_blocks: ~4 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_settings_blocks: ~5 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_settings_blocks` DISABLE KEYS */;
 INSERT INTO `vtiger_settings_blocks` (`blockid`, `label`, `sequence`) VALUES
 	(1, 'LBL_USER_MANAGEMENT', 1),
@@ -14612,7 +14796,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_settings_blocks_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_settings_blocks_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_settings_blocks_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_settings_blocks_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_settings_blocks_seq` (`id`) VALUES
 	(5);
@@ -14674,7 +14858,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_settings_field_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_settings_field_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_settings_field_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_settings_field_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_settings_field_seq` (`id`) VALUES
 	(32);
@@ -14727,7 +14911,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_shippingtaxinfo_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_shippingtaxinfo_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_shippingtaxinfo_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_shippingtaxinfo_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_shippingtaxinfo_seq` (`id`) VALUES
 	(3);
@@ -14886,7 +15070,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_sostatus_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_sostatus_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_sostatus_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_sostatus_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_sostatus_seq` (`id`) VALUES
 	(4);
@@ -14949,7 +15133,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_start_hour_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_start_hour_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_start_hour_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_start_hour_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_start_hour_seq` (`id`) VALUES
 	(24);
@@ -14976,7 +15160,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_status_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_status_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_status_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_status_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_status_seq` (`id`) VALUES
 	(2);
@@ -15021,7 +15205,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_tab` (
   KEY `tab_tabid_idx` (`tabid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_tab: ~43 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_tab: ~45 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_tab` DISABLE KEYS */;
 INSERT INTO `vtiger_tab` (`tabid`, `name`, `presence`, `tabsequence`, `tablabel`, `modifiedby`, `modifiedtime`, `customized`, `ownedby`, `isentitytype`, `trial`, `version`, `parent`) VALUES
 	(1, 'Dashboard', 0, 12, 'Dashboards', NULL, NULL, 0, 1, 0, 0, NULL, 'Analytics'),
@@ -15078,7 +15262,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_tab_info` (
   `prefvalue` varchar(256) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_tab_info: ~31 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_tab_info: ~33 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_tab_info` DISABLE KEYS */;
 INSERT INTO `vtiger_tab_info` (`tabid`, `prefname`, `prefvalue`) VALUES
 	(30, 'vtiger_min_version', '6.0.0rc'),
@@ -15139,7 +15323,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_taskpriority_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_taskpriority_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_taskpriority_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_taskpriority_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_taskpriority_seq` (`id`) VALUES
 	(3);
@@ -15171,7 +15355,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_taskstatus_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_taskstatus_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_taskstatus_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_taskstatus_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_taskstatus_seq` (`id`) VALUES
 	(6);
@@ -15199,7 +15383,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_taxclass_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_taxclass_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_taxclass_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_taxclass_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_taxclass_seq` (`id`) VALUES
 	(2);
@@ -15228,7 +15412,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_ticketcategories_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ticketcategories_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ticketcategories_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_ticketcategories_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_ticketcategories_seq` (`id`) VALUES
 	(3);
@@ -15243,6 +15427,10 @@ CREATE TABLE IF NOT EXISTS `vtiger_ticketcf` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ticketcf: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_ticketcf` DISABLE KEYS */;
+INSERT INTO `vtiger_ticketcf` (`ticketid`, `from_portal`) VALUES
+	(3, '0'),
+	(10, '0'),
+	(11, '0');
 /*!40000 ALTER TABLE `vtiger_ticketcf` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_ticketcomments
@@ -15285,7 +15473,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_ticketpriorities_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ticketpriorities_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ticketpriorities_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_ticketpriorities_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_ticketpriorities_seq` (`id`) VALUES
 	(4);
@@ -15315,7 +15503,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_ticketseverities_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ticketseverities_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ticketseverities_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_ticketseverities_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_ticketseverities_seq` (`id`) VALUES
 	(4);
@@ -15345,7 +15533,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_ticketstatus_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ticketstatus_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ticketstatus_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_ticketstatus_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_ticketstatus_seq` (`id`) VALUES
 	(4);
@@ -15360,7 +15548,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_time_zone` (
   PRIMARY KEY (`time_zoneid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=98 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_time_zone: ~96 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_time_zone: ~97 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_time_zone` DISABLE KEYS */;
 INSERT INTO `vtiger_time_zone` (`time_zoneid`, `time_zone`, `sortorderid`, `presence`) VALUES
 	(1, 'Pacific/Midway', 0, 1),
@@ -15467,7 +15655,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_time_zone_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_time_zone_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_time_zone_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_time_zone_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_time_zone_seq` (`id`) VALUES
 	(96);
@@ -15605,7 +15793,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_tracking_unit` (
   PRIMARY KEY (`tracking_unitid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_tracking_unit: ~4 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_tracking_unit: ~3 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_tracking_unit` DISABLE KEYS */;
 INSERT INTO `vtiger_tracking_unit` (`tracking_unitid`, `tracking_unit`, `presence`, `picklist_valueid`, `sortorderid`) VALUES
 	(2, 'Hours', 1, 211, 2),
@@ -15618,7 +15806,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_tracking_unit_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_tracking_unit_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_tracking_unit_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_tracking_unit_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_tracking_unit_seq` (`id`) VALUES
 	(4);
@@ -15649,6 +15837,10 @@ CREATE TABLE IF NOT EXISTS `vtiger_troubletickets` (
 
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_troubletickets: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_troubletickets` DISABLE KEYS */;
+INSERT INTO `vtiger_troubletickets` (`ticketid`, `ticket_no`, `groupname`, `parent_id`, `product_id`, `priority`, `severity`, `status`, `category`, `title`, `solution`, `update_log`, `version_id`, `hours`, `days`, `contact_id`) VALUES
+	(3, 'TT1', NULL, '2', '0', 'Urgent', 'Critical', 'Open', '', 'Rest', '', '', NULL, 0.00000000, 0.00000000, 0),
+	(10, 'TT2', NULL, '0', '0', '', '', 'Wait For Response', '', 'Teste 2', '', '', NULL, 0.00000000, 0.00000000, 0),
+	(11, 'TT3', NULL, '0', '0', '', '', 'Closed', '', 'Teste 3', '', '', NULL, 0.00000000, 0.00000000, 0);
 /*!40000 ALTER TABLE `vtiger_troubletickets` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_usageunit
@@ -15688,7 +15880,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_usageunit_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_usageunit_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_usageunit_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_usageunit_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_usageunit_seq` (`id`) VALUES
 	(16);
@@ -15804,8 +15996,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_users` (
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_users: ~2 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_users` DISABLE KEYS */;
 INSERT INTO `vtiger_users` (`id`, `user_name`, `user_password`, `user_hash`, `cal_color`, `first_name`, `last_name`, `reports_to_id`, `is_admin`, `currency_id`, `description`, `date_entered`, `date_modified`, `modified_user_id`, `title`, `department`, `phone_home`, `phone_mobile`, `phone_work`, `phone_other`, `phone_fax`, `email1`, `email2`, `secondaryemail`, `status`, `signature`, `address_street`, `address_city`, `address_state`, `address_country`, `address_postalcode`, `user_preferences`, `tz`, `holidays`, `namedays`, `workdays`, `weekstart`, `date_format`, `hour_format`, `start_hour`, `end_hour`, `activity_view`, `lead_view`, `imagename`, `deleted`, `confirm_password`, `internal_mailer`, `reminder_interval`, `reminder_next_time`, `crypt_type`, `accesskey`, `theme`, `language`, `time_zone`, `currency_grouping_pattern`, `currency_decimal_separator`, `currency_grouping_separator`, `currency_symbol_placement`, `phone_crm_extension`, `no_of_currency_decimals`, `truncate_trailing_zeros`, `dayoftheweek`, `callduration`, `othereventduration`, `calendarsharedtype`, `default_record_view`, `leftpanelhide`, `rowheight`, `defaulteventstatus`, `defaultactivitytype`, `hidecompletedevents`, `is_owner`) VALUES
-	(1, 'admin', '$1$ad000000$r3hzdtsdvtvXX9nD2w4yb0', 'd41d8cd98f00b204e9800998ecf8427e', '#E6FAD8', 'Nycolas', 'Administrator', '', 'on', 1, '', '2021-06-03 01:25:12', NULL, NULL, '', '', '', '', '', '', '', 'nycmoraes@hotmail.com', '', '', 'Active', '', '', '', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, 'yyyy-mm-dd', '12', '00:00', '23:00', 'This Week', 'Today', '', 0, '$1$ad000000$nYTnfhTZRmUP.wQT9y1AE.', '1', '1 Minute', NULL, 'PHP5.3MD5', 'HmytHabbTdJrEpnm', 'softed', 'pt_br', 'America/Sao_Paulo', '123,456,789', '.', ',', '$1.0', '', '2', '1', 'Sunday', '5', '5', 'public', 'Summary', '0', 'medium', 'Select an Option', 'Select an Option', 0, '1'),
-	(5, '', '$1$00000000$BAs7ZXPbyiSMzzbbHoEP4/', 'd41d8cd98f00b204e9800998ecf8427e', '#E6FAD8', '', '', '', '', 1, '', '2021-06-03 01:24:15', NULL, NULL, '', '', '', '', '', '', '', '', '', '', 'Active', '', '', '', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, 'yyyy-mm-dd', '12', '09:00', '', 'Today', '', '', 0, '$1$00000000$BAs7ZXPbyiSMzzbbHoEP4/', '0', '', NULL, 'PHP5.3MD5', 'T5Q45cyHxz1Lolgt', 'softed', 'en_us', 'UTC', '', '.', ',', '', '', '2', '0', 'Monday', '5', '5', 'Public', 'Summary', '0', 'medium', NULL, NULL, 0, '0');
+	(1, 'admin', '$1$ad000000$r3hzdtsdvtvXX9nD2w4yb0', 'd41d8cd98f00b204e9800998ecf8427e', '#E6FAD8', 'Nycolas', 'Administrator', '', 'on', 1, '', '2021-06-03 01:25:12', NULL, NULL, '', '', '', '', '', '', '', 'nycmoraes@hotmail.com', '', '', 'Active', '', '', '', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, 'yyyy-mm-dd', '12', '00:00', '23:00', 'This Week', 'Today', '', 0, '$1$ad000000$nYTnfhTZRmUP.wQT9y1AE.', '1', '1 Minute', NULL, 'PHP5.3MD5', 'HmytHabbTdJrEpnm', 'softed', 'pt_br', 'America/Sao_Paulo', '123,456,789', '.', ',', '$1.0', '', '2', '1', 'Sunday', '5', '5', 'public', 'Summary', '0', 'medium', 'Select an Option', 'Select an Option', 0, '1');
 /*!40000 ALTER TABLE `vtiger_users` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_users2group
@@ -15816,7 +16007,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_users2group` (
   KEY `users2group_groupname_uerid_idx` (`groupid`,`userid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_users2group: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_users2group: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_users2group` DISABLE KEYS */;
 INSERT INTO `vtiger_users2group` (`groupid`, `userid`) VALUES
 	(3, 1);
@@ -15852,7 +16043,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_users_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_users_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_users_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_users_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_users_seq` (`id`) VALUES
 	(5);
@@ -15925,7 +16116,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_version` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_version: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_version: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_version` DISABLE KEYS */;
 INSERT INTO `vtiger_version` (`id`, `old_version`, `current_version`) VALUES
 	(1, '6.5.0', '6.5.0');
@@ -15936,7 +16127,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_version_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_version_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_version_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_version_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_version_seq` (`id`) VALUES
 	(1);
@@ -15964,7 +16155,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_visibility_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_visibility_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_visibility_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_visibility_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_visibility_seq` (`id`) VALUES
 	(2);
@@ -16044,7 +16235,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_wsapp` (
   PRIMARY KEY (`appid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_wsapp: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_wsapp: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_wsapp` DISABLE KEYS */;
 INSERT INTO `vtiger_wsapp` (`appid`, `name`, `appkey`, `type`) VALUES
 	(1, 'vtigerCRM', '60b85947b754f', 'user');
@@ -16188,7 +16379,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_ws_entity_fieldtype_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ws_entity_fieldtype_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ws_entity_fieldtype_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_ws_entity_fieldtype_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_ws_entity_fieldtype_seq` (`id`) VALUES
 	(10);
@@ -16203,7 +16394,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_ws_entity_name` (
   PRIMARY KEY (`entity_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ws_entity_name: ~4 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ws_entity_name: ~5 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_ws_entity_name` DISABLE KEYS */;
 INSERT INTO `vtiger_ws_entity_name` (`entity_id`, `name_fields`, `index_field`, `table_name`) VALUES
 	(20, 'groupname', 'groupid', 'vtiger_groups'),
@@ -16238,7 +16429,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_ws_entity_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ws_entity_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ws_entity_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_ws_entity_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_ws_entity_seq` (`id`) VALUES
 	(35);
@@ -16271,7 +16462,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_ws_fieldinfo` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ws_fieldinfo: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ws_fieldinfo: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_ws_fieldinfo` DISABLE KEYS */;
 INSERT INTO `vtiger_ws_fieldinfo` (`id`, `property_name`, `property_value`) VALUES
 	('vtiger_organizationdetails.organization_id', 'upload.path', '1');
@@ -16341,7 +16532,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_ws_operation` (
   PRIMARY KEY (`operationid`)
 ) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ws_operation: ~32 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ws_operation: ~33 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_ws_operation` DISABLE KEYS */;
 INSERT INTO `vtiger_ws_operation` (`operationid`, `name`, `handler_path`, `handler_method`, `type`, `prelogin`) VALUES
 	(1, 'login', 'include/Webservices/Login.php', 'vtws_login', 'POST', 1),
@@ -16388,7 +16579,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_ws_operation_parameters` (
   PRIMARY KEY (`operationid`,`name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ws_operation_parameters: ~55 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ws_operation_parameters: ~56 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_ws_operation_parameters` DISABLE KEYS */;
 INSERT INTO `vtiger_ws_operation_parameters` (`operationid`, `name`, `type`, `sequence`) VALUES
 	(1, 'accessKey', 'String', 2),
@@ -16454,7 +16645,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_ws_operation_seq` (
   `id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ws_operation_seq: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ws_operation_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_ws_operation_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_ws_operation_seq` (`id`) VALUES
 	(33);
@@ -16467,7 +16658,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_ws_referencetype` (
   PRIMARY KEY (`fieldtypeid`,`type`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ws_referencetype: ~28 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ws_referencetype: ~29 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_ws_referencetype` DISABLE KEYS */;
 INSERT INTO `vtiger_ws_referencetype` (`fieldtypeid`, `type`) VALUES
 	(20, 'Accounts'),
