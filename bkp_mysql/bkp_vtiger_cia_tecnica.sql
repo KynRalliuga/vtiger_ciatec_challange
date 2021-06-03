@@ -164,7 +164,7 @@ CREATE TABLE IF NOT EXISTS `com_vtiger_workflowtask_queue` (
   `task_contents` text DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.com_vtiger_workflowtask_queue: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.com_vtiger_workflowtask_queue: ~6 rows (aproximadamente)
 /*!40000 ALTER TABLE `com_vtiger_workflowtask_queue` DISABLE KEYS */;
 INSERT INTO `com_vtiger_workflowtask_queue` (`task_id`, `entity_id`, `do_after`, `task_contents`) VALUES
 	(25, '17x3', 0, '{"fromEmail":"nycmoraes@hotmail.com","fromName":"your-support name","toEmail":",nycmoraes@hotmail.com","ccEmail":"","bccEmail":"","subject":"Ticket Number : TT1 Rest","content":"Ticket ID : 3<br>Ticket Title : Rest<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tDear Administrator Nycolas,<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tThe Ticket is replied the details are :<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tTicket No : TT1<br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tStatus : Aberto<br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tCategory : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tSeverity : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tPriority : <br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tDescription : <br><br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tSolution : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\t<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tRegards<br>Support Administrator"}'),
@@ -172,7 +172,9 @@ INSERT INTO `com_vtiger_workflowtask_queue` (`task_id`, `entity_id`, `do_after`,
 	(5, '13x7', 0, '{"fromEmail":"nycmoraes@hotmail.com","fromName":"admin","toEmail":"nycmoraes@hotmail.com","ccEmail":"","bccEmail":"","subject":"Regarding Potential Assignment","content":"An Potential has been assigned to you on vtigerCRM<br>Details of Potential are :<br><br>Potential No:<b>POT1<\\/b><br>Potential Name:<b>asdf<\\/b><br>Amount:<b>0<\\/b><br>Expected Close Date:<b>2021-06-10 (yyyy-mm-dd)<\\/b><br>Type:<b><\\/b><br><br><br>Description :<br><br>Thank You<br>Admin"}'),
 	(6, '12x9', 0, '{"fromEmail":"nycmoraes@hotmail.com","fromName":"admin","toEmail":"nycmoraes@hotmail.com","ccEmail":"","bccEmail":"","subject":"Regarding Contact Assignment","content":"An Contact has been assigned to you on vtigerCRM<br>Details of Contact are :<br><br>Contact Id:<b>CON2<\\/b><br>LastName:<b>asdf<\\/b><br>FirstName:<b><\\/b><br>Lead Source:<b><\\/b><br>Department:<b><\\/b><br>Description:<b><\\/b><br><br><br>And <b>CustomerPortal Login Details<\\/b> is sent to the EmailID :-<br><br>Thank You<br>Admin"}'),
 	(25, '17x10', 0, '{"fromEmail":"nycmoraes@hotmail.com","fromName":"your-support name","toEmail":",nycmoraes@hotmail.com","ccEmail":"","bccEmail":"","subject":"Ticket Number : TT2 Teste 2","content":"Ticket ID : 10<br>Ticket Title : Teste 2<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tDear Administrator Nycolas,<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tThe Ticket is replied the details are :<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tTicket No : TT2<br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tStatus : Aguarda Resposta<br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tCategory : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tSeverity : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tPriority : <br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tDescription : <br><br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tSolution : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\t<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tRegards<br>Support Administrator"}'),
-	(25, '17x11', 0, '{"fromEmail":"nycmoraes@hotmail.com","fromName":"your-support name","toEmail":",nycmoraes@hotmail.com","ccEmail":"","bccEmail":"","subject":"Ticket Number : TT3 Teste 3","content":"Ticket ID : 11<br>Ticket Title : Teste 3<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tDear Administrator Nycolas,<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tThe Ticket is replied the details are :<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tTicket No : TT3<br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tStatus : Fechado<br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tCategory : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tSeverity : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tPriority : <br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tDescription : <br><br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tSolution : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\t<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tRegards<br>Support Administrator"}');
+	(25, '17x11', 0, '{"fromEmail":"nycmoraes@hotmail.com","fromName":"your-support name","toEmail":",nycmoraes@hotmail.com","ccEmail":"","bccEmail":"","subject":"Ticket Number : TT3 Teste 3","content":"Ticket ID : 11<br>Ticket Title : Teste 3<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tDear Administrator Nycolas,<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tThe Ticket is replied the details are :<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tTicket No : TT3<br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tStatus : Fechado<br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tCategory : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tSeverity : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tPriority : <br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tDescription : <br><br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tSolution : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\t<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tRegards<br>Support Administrator"}'),
+	(25, '17x13', 0, '{"fromEmail":"nycmoraes@hotmail.com","fromName":"your-support name","toEmail":",nycmoraes@hotmail.com","ccEmail":"","bccEmail":"","subject":"Ticket Number : TT4 Teste","content":"Ticket ID : 13<br>Ticket Title : Teste<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tDear Administrator Nycolas,<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tThe Ticket is replied the details are :<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tTicket No : TT4<br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tStatus : Aguarda Resposta<br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tCategory : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tSeverity : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tPriority : <br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tDescription : <br><br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tSolution : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\t<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tRegards<br>Support Administrator"}'),
+	(25, '17x14', 0, '{"fromEmail":"nycmoraes@hotmail.com","fromName":"your-support name","toEmail":",nycmoraes@hotmail.com","ccEmail":"","bccEmail":"","subject":"Ticket Number : TT5 Projeto","content":"Ticket ID : 14<br>Ticket Title : Projeto<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tDear Administrator Nycolas,<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tThe Ticket is replied the details are :<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tTicket No : TT5<br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tStatus : Aguarda Resposta<br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tCategory : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tSeverity : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tPriority : Baixo<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tDescription : <br><br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tSolution : <br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\t<br><br>\\r\\n\\t\\t\\t\\t\\t\\t\\t\\tRegards<br>Support Administrator"}');
 /*!40000 ALTER TABLE `com_vtiger_workflowtask_queue` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.com_vtiger_workflowtemplates
@@ -262,7 +264,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_account` (
   KEY `email_idx` (`email1`,`email2`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_account: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_account: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_account` DISABLE KEYS */;
 INSERT INTO `vtiger_account` (`accountid`, `account_no`, `accountname`, `parentid`, `account_type`, `industry`, `annualrevenue`, `rating`, `ownership`, `siccode`, `tickersymbol`, `phone`, `otherphone`, `email1`, `email2`, `website`, `fax`, `employees`, `emailoptout`, `notify_owner`, `isconvertedfromlead`) VALUES
 	(2, 'ACC1', 'Teste', 0, '', '', 0.00000000, '', '', '', '', '', '', '', '', '', '', 0, '0', '0', '0');
@@ -280,7 +282,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_accountbillads` (
   PRIMARY KEY (`accountaddressid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_accountbillads: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_accountbillads: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_accountbillads` DISABLE KEYS */;
 INSERT INTO `vtiger_accountbillads` (`accountaddressid`, `bill_city`, `bill_code`, `bill_country`, `bill_state`, `bill_street`, `bill_pobox`) VALUES
 	(2, '', '', '', '', '', '');
@@ -306,7 +308,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_accountscf` (
   PRIMARY KEY (`accountid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_accountscf: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_accountscf: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_accountscf` DISABLE KEYS */;
 INSERT INTO `vtiger_accountscf` (`accountid`) VALUES
 	(2);
@@ -324,7 +326,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_accountshipads` (
   PRIMARY KEY (`accountaddressid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_accountshipads: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_accountshipads: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_accountshipads` DISABLE KEYS */;
 INSERT INTO `vtiger_accountshipads` (`accountaddressid`, `ship_city`, `ship_code`, `ship_country`, `ship_state`, `ship_pobox`, `ship_street`) VALUES
 	(2, '', '', '', '', '', '');
@@ -434,7 +436,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_activity` (
   KEY `activity_status_idx` (`status`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_activity: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_activity: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_activity` DISABLE KEYS */;
 INSERT INTO `vtiger_activity` (`activityid`, `subject`, `semodule`, `activitytype`, `date_start`, `due_date`, `time_start`, `time_end`, `sendnotification`, `duration_hours`, `duration_minutes`, `status`, `eventstatus`, `priority`, `location`, `notime`, `visibility`, `recurringtype`) VALUES
 	(5, 'teste', NULL, 'Call', '2021-06-03', '2021-06-03', '06:19:00', '06:24:00', '0', '0', '5', NULL, 'Planned', '', '', '0', 'Public', '');
@@ -446,7 +448,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_activitycf` (
   PRIMARY KEY (`activityid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_activitycf: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_activitycf: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_activitycf` DISABLE KEYS */;
 INSERT INTO `vtiger_activitycf` (`activityid`) VALUES
 	(5);
@@ -1273,7 +1275,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_contactaddress` (
   PRIMARY KEY (`contactaddressid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_contactaddress: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_contactaddress: ~2 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_contactaddress` DISABLE KEYS */;
 INSERT INTO `vtiger_contactaddress` (`contactaddressid`, `mailingcity`, `mailingstreet`, `mailingcountry`, `othercountry`, `mailingstate`, `mailingpobox`, `othercity`, `otherstate`, `mailingzip`, `otherzip`, `otherstreet`, `otherpobox`) VALUES
 	(4, '', '', '', '', '', '', '', '', '', '', '', ''),
@@ -1311,7 +1313,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_contactdetails` (
   KEY `email_idx` (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_contactdetails: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_contactdetails: ~2 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_contactdetails` DISABLE KEYS */;
 INSERT INTO `vtiger_contactdetails` (`contactid`, `contact_no`, `accountid`, `salutation`, `firstname`, `lastname`, `email`, `phone`, `mobile`, `title`, `department`, `fax`, `reportsto`, `training`, `usertype`, `contacttype`, `otheremail`, `secondaryemail`, `donotcall`, `emailoptout`, `imagename`, `reference`, `notify_owner`, `isconvertedfromlead`) VALUES
 	(4, 'CON1', 0, '', '', 'tetst', '', '', '', '', '', '', '0', NULL, NULL, NULL, NULL, '', '0', '0', '', '0', '0', '0'),
@@ -1324,7 +1326,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_contactscf` (
   PRIMARY KEY (`contactid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_contactscf: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_contactscf: ~2 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_contactscf` DISABLE KEYS */;
 INSERT INTO `vtiger_contactscf` (`contactid`) VALUES
 	(4),
@@ -1345,7 +1347,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_contactsubdetails` (
   PRIMARY KEY (`contactsubscriptionid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_contactsubdetails: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_contactsubdetails: ~2 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_contactsubdetails` DISABLE KEYS */;
 INSERT INTO `vtiger_contactsubdetails` (`contactsubscriptionid`, `homephone`, `otherphone`, `assistant`, `assistantphone`, `birthday`, `laststayintouchrequest`, `laststayintouchsavedate`, `leadsource`) VALUES
 	(4, '', '', '', '', NULL, 0, 0, ''),
@@ -1526,7 +1528,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_crmentity` (
   KEY `vtiger_crmentity_labelidx` (`label`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_crmentity: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_crmentity: ~10 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_crmentity` DISABLE KEYS */;
 INSERT INTO `vtiger_crmentity` (`crmid`, `smcreatorid`, `smownerid`, `modifiedby`, `setype`, `description`, `createdtime`, `modifiedtime`, `viewedtime`, `status`, `version`, `presence`, `deleted`, `label`) VALUES
 	(2, 1, 1, 1, 'Accounts', '', '2021-06-03 04:51:43', '2021-06-03 07:02:11', NULL, NULL, 0, 1, 0, 'Teste'),
@@ -1538,7 +1540,10 @@ INSERT INTO `vtiger_crmentity` (`crmid`, `smcreatorid`, `smownerid`, `modifiedby
 	(8, 1, 1, 1, 'Project', '', '2021-06-03 06:37:55', '2021-06-03 06:38:24', NULL, NULL, 0, 1, 1, 'Teste'),
 	(9, 1, 1, 1, 'Contacts', '', '2021-06-03 06:50:42', '2021-06-03 06:52:15', NULL, NULL, 0, 1, 1, ' asdf'),
 	(10, 1, 1, 1, 'HelpDesk', '', '2021-06-03 07:01:51', '2021-06-03 07:03:03', NULL, NULL, 0, 1, 1, 'Teste 2'),
-	(11, 1, 1, 1, 'HelpDesk', '', '2021-06-03 07:02:10', '2021-06-03 07:03:03', NULL, NULL, 0, 1, 1, 'Teste 3');
+	(11, 1, 1, 1, 'HelpDesk', '', '2021-06-03 07:02:10', '2021-06-03 07:03:03', NULL, NULL, 0, 1, 1, 'Teste 3'),
+	(12, 1, 1, 1, 'Project', '', '2021-06-03 19:39:24', '2021-06-03 19:40:15', NULL, NULL, 0, 1, 0, 'Projeto'),
+	(13, 1, 1, 1, 'HelpDesk', '', '2021-06-03 19:39:46', '2021-06-03 19:39:46', NULL, NULL, 0, 1, 0, 'Teste'),
+	(14, 1, 1, 1, 'HelpDesk', '', '2021-06-03 19:40:14', '2021-06-03 19:40:14', NULL, NULL, 0, 1, 0, 'Projeto');
 /*!40000 ALTER TABLE `vtiger_crmentity` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_crmentityrel
@@ -1549,11 +1554,13 @@ CREATE TABLE IF NOT EXISTS `vtiger_crmentityrel` (
   `relmodule` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_crmentityrel: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_crmentityrel: ~2 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_crmentityrel` DISABLE KEYS */;
 INSERT INTO `vtiger_crmentityrel` (`crmid`, `module`, `relcrmid`, `relmodule`) VALUES
 	(2, 'Accounts', 10, 'HelpDesk'),
-	(2, 'Accounts', 11, 'HelpDesk');
+	(2, 'Accounts', 11, 'HelpDesk'),
+	(12, 'Project', 13, 'HelpDesk'),
+	(12, 'Project', 14, 'HelpDesk');
 /*!40000 ALTER TABLE `vtiger_crmentityrel` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_crmentity_seq
@@ -1564,7 +1571,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_crmentity_seq` (
 -- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_crmentity_seq: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_crmentity_seq` DISABLE KEYS */;
 INSERT INTO `vtiger_crmentity_seq` (`id`) VALUES
-	(11);
+	(14);
 /*!40000 ALTER TABLE `vtiger_crmentity_seq` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_crmsetup
@@ -1952,7 +1959,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_customerdetails` (
   PRIMARY KEY (`customerid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_customerdetails: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_customerdetails: ~2 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_customerdetails` DISABLE KEYS */;
 INSERT INTO `vtiger_customerdetails` (`customerid`, `portal`, `support_start_date`, `support_end_date`) VALUES
 	(4, '0', NULL, NULL),
@@ -4213,7 +4220,7 @@ INSERT INTO `vtiger_field` (`tabid`, `fieldid`, `columnname`, `tablename`, `gene
 	(26, 154, 'campaignrelstatus', 'vtiger_campaignrelstatus', 1, '16', 'campaignrelstatus', 'Campaign Status', 1, 0, '0', 100, 1, NULL, 1, 'V~O', 1, NULL, 'BAS', 0, NULL, 0),
 	(13, 155, 'ticket_no', 'vtiger_troubletickets', 1, '4', 'ticket_no', 'Ticket No', 1, 0, '', 100, 14, 25, 1, 'V~O', 3, NULL, 'BAS', 0, NULL, 1),
 	(13, 156, 'smownerid', 'vtiger_crmentity', 1, '53', 'assigned_user_id', 'Assigned To', 1, 0, '', 100, 5, 25, 1, 'V~M', 0, 4, 'BAS', 1, NULL, 1),
-	(13, 157, 'parent_id', 'vtiger_troubletickets', 1, '10', 'parent_id', 'Related To', 1, 0, '', 100, 2, 25, 1, 'I~O', 1, NULL, 'BAS', 1, NULL, 1),
+	(13, 157, 'parent_id', 'vtiger_troubletickets', 1, '10', 'parent_id', 'Related To', 1, 2, '', 100, 2, 25, 1, 'I~O', 2, NULL, 'BAS', 1, NULL, 1),
 	(13, 158, 'priority', 'vtiger_troubletickets', 1, '15', 'ticketpriorities', 'Priority', 1, 2, '', 100, 7, 25, 1, 'V~O', 2, 3, 'BAS', 1, NULL, 1),
 	(13, 159, 'product_id', 'vtiger_troubletickets', 1, '59', 'product_id', 'Product Name', 1, 2, '', 100, 6, 25, 1, 'I~O', 1, NULL, 'BAS', 1, NULL, 0),
 	(13, 160, 'severity', 'vtiger_troubletickets', 1, '15', 'ticketseverities', 'Severity', 1, 2, '', 100, 9, 25, 1, 'V~O', 1, NULL, 'BAS', 1, NULL, 1),
@@ -5142,7 +5149,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_homestuff` (
   KEY `stuff_stuffid_idx` (`stuffid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_homestuff: ~30 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_homestuff: ~15 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_homestuff` DISABLE KEYS */;
 INSERT INTO `vtiger_homestuff` (`stuffid`, `stuffsequence`, `stufftype`, `userid`, `visible`, `stufftitle`) VALUES
 	(1, 1, 'Default', 1, 1, 'Top Accounts'),
@@ -5686,7 +5693,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_leadaddress` (
   PRIMARY KEY (`leadaddressid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leadaddress: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leadaddress: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_leadaddress` DISABLE KEYS */;
 INSERT INTO `vtiger_leadaddress` (`leadaddressid`, `city`, `code`, `state`, `pobox`, `country`, `phone`, `mobile`, `fax`, `lane`, `leadaddresstype`) VALUES
 	(6, '', '', '', '', '', '', '', '', '', 'Billing');
@@ -5734,7 +5741,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_leaddetails` (
   KEY `email_idx` (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leaddetails: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leaddetails: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_leaddetails` DISABLE KEYS */;
 INSERT INTO `vtiger_leaddetails` (`leadid`, `lead_no`, `email`, `interest`, `firstname`, `salutation`, `lastname`, `company`, `annualrevenue`, `industry`, `campaign`, `rating`, `leadstatus`, `leadsource`, `converted`, `designation`, `licencekeystatus`, `space`, `comments`, `priority`, `demorequest`, `partnercontact`, `productversion`, `product`, `maildate`, `nextstepdate`, `fundingsituation`, `purpose`, `evaluationstatus`, `transferdate`, `revenuetype`, `noofemployees`, `secondaryemail`, `assignleadchk`, `emailoptout`) VALUES
 	(6, 'LEA1', '', NULL, '', '', 'ttstsd', '', 0.00000000, '', NULL, '', '', '', 0, '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, '', 0, '0');
@@ -5746,7 +5753,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_leadscf` (
   PRIMARY KEY (`leadid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leadscf: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leadscf: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_leadscf` DISABLE KEYS */;
 INSERT INTO `vtiger_leadscf` (`leadid`) VALUES
 	(6);
@@ -5851,7 +5858,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_leadsubdetails` (
   PRIMARY KEY (`leadsubscriptionid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leadsubdetails: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_leadsubdetails: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_leadsubdetails` DISABLE KEYS */;
 INSERT INTO `vtiger_leadsubdetails` (`leadsubscriptionid`, `website`, `callornot`, `readornot`, `empct`) VALUES
 	(6, '', 0, 0, 0);
@@ -6000,7 +6007,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_loginhistory` (
   PRIMARY KEY (`login_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_loginhistory: ~1 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_loginhistory: ~2 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_loginhistory` DISABLE KEYS */;
 INSERT INTO `vtiger_loginhistory` (`login_id`, `user_name`, `user_ip`, `logout_time`, `login_time`, `status`) VALUES
 	(1, 'admin', '::1', '0000-00-00 00:00:00', '2021-06-03 04:24:15', 'Signed in'),
@@ -6326,7 +6333,7 @@ INSERT INTO `vtiger_modentity_num` (`num_id`, `semodule`, `prefix`, `start_id`, 
 	(3, 'Campaigns', 'CAM', '1', '1', '1'),
 	(4, 'Contacts', 'CON', '1', '3', '1'),
 	(5, 'Potentials', 'POT', '1', '2', '1'),
-	(6, 'HelpDesk', 'TT', '1', '4', '1'),
+	(6, 'HelpDesk', 'TT', '1', '6', '1'),
 	(7, 'Quotes', 'QUO', '1', '1', '1'),
 	(8, 'SalesOrder', 'SO', '1', '1', '1'),
 	(9, 'PurchaseOrder', 'PO', '1', '1', '1'),
@@ -6341,7 +6348,7 @@ INSERT INTO `vtiger_modentity_num` (`num_id`, `semodule`, `prefix`, `start_id`, 
 	(18, 'Assets', 'ASSET', '1', '1', '1'),
 	(19, 'ProjectMilestone', 'PM', '1', '1', '1'),
 	(20, 'ProjectTask', 'PT', '1', '1', '1'),
-	(21, 'Project', 'PROJ', '1', '2', '1');
+	(21, 'Project', 'PROJ', '1', '3', '1');
 /*!40000 ALTER TABLE `vtiger_modentity_num` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_modentity_num_seq
@@ -6368,7 +6375,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_modtracker_basic` (
   KEY `idx` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_modtracker_basic: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_modtracker_basic: ~23 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_modtracker_basic` DISABLE KEYS */;
 INSERT INTO `vtiger_modtracker_basic` (`id`, `crmid`, `module`, `whodid`, `changedon`, `status`) VALUES
 	(1, 2, 'Accounts', 1, '2021-06-03 04:51:43', 2),
@@ -6393,7 +6400,12 @@ INSERT INTO `vtiger_modtracker_basic` (`id`, `crmid`, `module`, `whodid`, `chang
 	(20, 11, 'HelpDesk', 1, '2021-06-03 07:02:10', 2),
 	(21, 2, 'Accounts', 1, '2021-06-03 07:02:11', 4),
 	(22, 11, 'HelpDesk', 1, '2021-06-03 07:03:03', 1),
-	(23, 10, 'HelpDesk', 1, '2021-06-03 07:03:03', 1);
+	(23, 10, 'HelpDesk', 1, '2021-06-03 07:03:03', 1),
+	(24, 12, 'Project', 1, '2021-06-03 19:39:24', 2),
+	(25, 13, 'HelpDesk', 1, '2021-06-03 19:39:46', 2),
+	(26, 12, 'Project', 1, '2021-06-03 19:39:47', 4),
+	(27, 14, 'HelpDesk', 1, '2021-06-03 19:40:14', 2),
+	(28, 12, 'Project', 1, '2021-06-03 19:40:15', 4);
 /*!40000 ALTER TABLE `vtiger_modtracker_basic` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_modtracker_detail
@@ -6405,7 +6417,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_modtracker_detail` (
   KEY `idx` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_modtracker_detail: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_modtracker_detail: ~101 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_modtracker_detail` DISABLE KEYS */;
 INSERT INTO `vtiger_modtracker_detail` (`id`, `fieldname`, `prevalue`, `postvalue`) VALUES
 	(1, 'accountname', NULL, 'Teste'),
@@ -6508,7 +6520,35 @@ INSERT INTO `vtiger_modtracker_detail` (`id`, `fieldname`, `prevalue`, `postvalu
 	(20, 'modifiedby', NULL, '1'),
 	(20, 'ticket_title', NULL, 'Teste 3'),
 	(20, 'record_id', NULL, '11'),
-	(20, 'record_module', NULL, 'HelpDesk');
+	(20, 'record_module', NULL, 'HelpDesk'),
+	(24, 'projectname', NULL, 'Projeto'),
+	(24, 'assigned_user_id', NULL, '1'),
+	(24, 'project_no', NULL, 'PROJ2'),
+	(24, 'createdtime', NULL, '2021-06-03 19:39:24'),
+	(24, 'modifiedby', NULL, '1'),
+	(24, 'record_id', NULL, '12'),
+	(24, 'record_module', NULL, 'Project'),
+	(25, 'ticket_no', NULL, 'TT4'),
+	(25, 'assigned_user_id', NULL, '1'),
+	(25, 'ticketstatus', NULL, 'Wait For Response'),
+	(25, 'hours', NULL, '0.00000000'),
+	(25, 'days', NULL, '0.00000000'),
+	(25, 'createdtime', NULL, '2021-06-03 19:39:46'),
+	(25, 'modifiedby', NULL, '1'),
+	(25, 'ticket_title', NULL, 'Teste'),
+	(25, 'record_id', NULL, '13'),
+	(25, 'record_module', NULL, 'HelpDesk'),
+	(27, 'ticket_no', NULL, 'TT5'),
+	(27, 'assigned_user_id', NULL, '1'),
+	(27, 'ticketpriorities', NULL, 'Low'),
+	(27, 'ticketstatus', NULL, 'Wait For Response'),
+	(27, 'hours', NULL, '0.00000000'),
+	(27, 'days', NULL, '0.00000000'),
+	(27, 'createdtime', NULL, '2021-06-03 19:40:14'),
+	(27, 'modifiedby', NULL, '1'),
+	(27, 'ticket_title', NULL, 'Projeto'),
+	(27, 'record_id', NULL, '14'),
+	(27, 'record_module', NULL, 'HelpDesk');
 /*!40000 ALTER TABLE `vtiger_modtracker_detail` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_modtracker_relations
@@ -6520,11 +6560,13 @@ CREATE TABLE IF NOT EXISTS `vtiger_modtracker_relations` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_modtracker_relations: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_modtracker_relations: ~2 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_modtracker_relations` DISABLE KEYS */;
 INSERT INTO `vtiger_modtracker_relations` (`id`, `targetmodule`, `targetid`, `changedon`) VALUES
 	(19, 'HelpDesk', 10, '2021-06-03 07:01:52'),
-	(21, 'HelpDesk', 11, '2021-06-03 07:02:11');
+	(21, 'HelpDesk', 11, '2021-06-03 07:02:11'),
+	(26, 'HelpDesk', 13, '2021-06-03 19:39:47'),
+	(28, 'HelpDesk', 14, '2021-06-03 19:40:15');
 /*!40000 ALTER TABLE `vtiger_modtracker_relations` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_modtracker_tabs
@@ -7377,7 +7419,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_potential` (
   KEY `potentail_sales_stage_amount_idx` (`amount`,`sales_stage`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_potential: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_potential: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_potential` DISABLE KEYS */;
 INSERT INTO `vtiger_potential` (`potentialid`, `potential_no`, `related_to`, `potentialname`, `amount`, `currency`, `closingdate`, `typeofrevenue`, `nextstep`, `private`, `probability`, `campaignid`, `sales_stage`, `potentialtype`, `leadsource`, `productid`, `productversion`, `quotationref`, `partnercontact`, `remarks`, `runtimefee`, `followupdate`, `evaluationstatus`, `description`, `forecastcategory`, `outcomeanalysis`, `forecast_amount`, `isconvertedfromlead`, `contact_id`) VALUES
 	(7, 'POT1', 0, 'asdf', 0.00000000, NULL, '2021-06-10', NULL, '', 0, 0.000, 0, 'Qualification', '', '', NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, NULL, 0, 0, 0.00000000, '0', 0);
@@ -7389,7 +7431,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_potentialscf` (
   PRIMARY KEY (`potentialid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_potentialscf: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_potentialscf: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_potentialscf` DISABLE KEYS */;
 INSERT INTO `vtiger_potentialscf` (`potentialid`) VALUES
 	(7);
@@ -11473,10 +11515,11 @@ CREATE TABLE IF NOT EXISTS `vtiger_project` (
   `linktoaccountscontacts` varchar(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_project: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_project: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_project` DISABLE KEYS */;
 INSERT INTO `vtiger_project` (`projectid`, `projectname`, `project_no`, `startdate`, `targetenddate`, `actualenddate`, `targetbudget`, `projecturl`, `projectstatus`, `projectpriority`, `projecttype`, `progress`, `linktoaccountscontacts`) VALUES
-	(8, 'Teste', 'PROJ1', NULL, NULL, NULL, '', '', '', '', '', '', '');
+	(8, 'Teste', 'PROJ1', NULL, NULL, NULL, '', '', '', '', '', '', ''),
+	(12, 'Projeto', 'PROJ2', NULL, NULL, NULL, '', '', '', '', '', '', '');
 /*!40000 ALTER TABLE `vtiger_project` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_projectcf
@@ -11485,10 +11528,11 @@ CREATE TABLE IF NOT EXISTS `vtiger_projectcf` (
   PRIMARY KEY (`projectid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projectcf: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_projectcf: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_projectcf` DISABLE KEYS */;
 INSERT INTO `vtiger_projectcf` (`projectid`) VALUES
-	(8);
+	(8),
+	(12);
 /*!40000 ALTER TABLE `vtiger_projectcf` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_projectmilestone
@@ -12237,7 +12281,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_relatedlists_rb` (
   `related_crm_ids` text DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_relatedlists_rb: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_relatedlists_rb: ~2 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_relatedlists_rb` DISABLE KEYS */;
 INSERT INTO `vtiger_relatedlists_rb` (`entityid`, `action`, `rel_table`, `rel_column`, `ref_column`, `related_crm_ids`) VALUES
 	(4, 'update', 'vtiger_crmentity', 'deleted', 'crmid', ''),
@@ -14163,7 +14207,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_salesmanactivityrel` (
   KEY `salesmanactivityrel_smid_idx` (`smid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_salesmanactivityrel: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_salesmanactivityrel: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_salesmanactivityrel` DISABLE KEYS */;
 INSERT INTO `vtiger_salesmanactivityrel` (`smid`, `activityid`) VALUES
 	(1, 5);
@@ -15425,12 +15469,14 @@ CREATE TABLE IF NOT EXISTS `vtiger_ticketcf` (
   PRIMARY KEY (`ticketid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ticketcf: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_ticketcf: ~3 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_ticketcf` DISABLE KEYS */;
 INSERT INTO `vtiger_ticketcf` (`ticketid`, `from_portal`) VALUES
 	(3, '0'),
 	(10, '0'),
-	(11, '0');
+	(11, '0'),
+	(13, '0'),
+	(14, '0');
 /*!40000 ALTER TABLE `vtiger_ticketcf` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_ticketcomments
@@ -15835,12 +15881,14 @@ CREATE TABLE IF NOT EXISTS `vtiger_troubletickets` (
   KEY `troubletickets_status_idx` (`status`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_troubletickets: ~0 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_troubletickets: ~3 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_troubletickets` DISABLE KEYS */;
 INSERT INTO `vtiger_troubletickets` (`ticketid`, `ticket_no`, `groupname`, `parent_id`, `product_id`, `priority`, `severity`, `status`, `category`, `title`, `solution`, `update_log`, `version_id`, `hours`, `days`, `contact_id`) VALUES
 	(3, 'TT1', NULL, '2', '0', 'Urgent', 'Critical', 'Open', '', 'Rest', '', '', NULL, 0.00000000, 0.00000000, 0),
 	(10, 'TT2', NULL, '0', '0', '', '', 'Wait For Response', '', 'Teste 2', '', '', NULL, 0.00000000, 0.00000000, 0),
-	(11, 'TT3', NULL, '0', '0', '', '', 'Closed', '', 'Teste 3', '', '', NULL, 0.00000000, 0.00000000, 0);
+	(11, 'TT3', NULL, '0', '0', '', '', 'Closed', '', 'Teste 3', '', '', NULL, 0.00000000, 0.00000000, 0),
+	(13, 'TT4', NULL, '0', '0', '', '', 'Wait For Response', '', 'Teste', '', '', NULL, 0.00000000, 0.00000000, 0),
+	(14, 'TT5', NULL, '0', '0', 'Low', '', 'Wait For Response', '', 'Projeto', '', '', NULL, 0.00000000, 0.00000000, 0);
 /*!40000 ALTER TABLE `vtiger_troubletickets` ENABLE KEYS */;
 
 -- Copiando estrutura para tabela vtiger_cia_tecnica.vtiger_usageunit
@@ -15993,7 +16041,7 @@ CREATE TABLE IF NOT EXISTS `vtiger_users` (
   KEY `user_user_password_idx` (`user_password`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
--- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_users: ~2 rows (aproximadamente)
+-- Copiando dados para a tabela vtiger_cia_tecnica.vtiger_users: ~1 rows (aproximadamente)
 /*!40000 ALTER TABLE `vtiger_users` DISABLE KEYS */;
 INSERT INTO `vtiger_users` (`id`, `user_name`, `user_password`, `user_hash`, `cal_color`, `first_name`, `last_name`, `reports_to_id`, `is_admin`, `currency_id`, `description`, `date_entered`, `date_modified`, `modified_user_id`, `title`, `department`, `phone_home`, `phone_mobile`, `phone_work`, `phone_other`, `phone_fax`, `email1`, `email2`, `secondaryemail`, `status`, `signature`, `address_street`, `address_city`, `address_state`, `address_country`, `address_postalcode`, `user_preferences`, `tz`, `holidays`, `namedays`, `workdays`, `weekstart`, `date_format`, `hour_format`, `start_hour`, `end_hour`, `activity_view`, `lead_view`, `imagename`, `deleted`, `confirm_password`, `internal_mailer`, `reminder_interval`, `reminder_next_time`, `crypt_type`, `accesskey`, `theme`, `language`, `time_zone`, `currency_grouping_pattern`, `currency_decimal_separator`, `currency_grouping_separator`, `currency_symbol_placement`, `phone_crm_extension`, `no_of_currency_decimals`, `truncate_trailing_zeros`, `dayoftheweek`, `callduration`, `othereventduration`, `calendarsharedtype`, `default_record_view`, `leftpanelhide`, `rowheight`, `defaulteventstatus`, `defaultactivitytype`, `hidecompletedevents`, `is_owner`) VALUES
 	(1, 'admin', '$1$ad000000$r3hzdtsdvtvXX9nD2w4yb0', 'd41d8cd98f00b204e9800998ecf8427e', '#E6FAD8', 'Nycolas', 'Administrator', '', 'on', 1, '', '2021-06-03 01:25:12', NULL, NULL, '', '', '', '', '', '', '', 'nycmoraes@hotmail.com', '', '', 'Active', '', '', '', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, 'yyyy-mm-dd', '12', '00:00', '23:00', 'This Week', 'Today', '', 0, '$1$ad000000$nYTnfhTZRmUP.wQT9y1AE.', '1', '1 Minute', NULL, 'PHP5.3MD5', 'HmytHabbTdJrEpnm', 'softed', 'pt_br', 'America/Sao_Paulo', '123,456,789', '.', ',', '$1.0', '', '2', '1', 'Sunday', '5', '5', 'public', 'Summary', '0', 'medium', 'Select an Option', 'Select an Option', 0, '1');
