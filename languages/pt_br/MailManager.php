@@ -7,6 +7,7 @@
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
  * Contributor(s): Valmir C. Trindade - Translated to Brazilian Portuguese - 20/06/2014 - www.ttcasolucoes.com.br
  ************************************************************************************/
+// Altera o nome de organização para cliente
 
 $languageStrings = Array (
 	'JSLBL_Body_Cannot_Be_Empty' => 'O corpo da mensagem não pode estar vazio',
@@ -48,7 +49,7 @@ $languageStrings = Array (
 	'LBL_Like'            => 'como',
 	'LBL_MAILBOX_DETAILS' => 'Detalhes Caixa Entrada',
 	'LBL_Mailbox'         => 'Caixa Entrada',
-    'LBL_MAILMANAGER_ADD_Accounts' => 'Adicionar Organização',
+    'LBL_MAILMANAGER_ADD_Accounts' => 'Adicionar Cliente',
     'LBL_MAILMANAGER_ADD_Calendar' => 'Adicionar Compromisso',
     'LBL_MAILMANAGER_ADD_Contacts' => 'Adicionar Contato',
     'LBL_MAILMANAGER_ADD_Emails' => 'Adicionar Email',
@@ -58,7 +59,7 @@ $languageStrings = Array (
 	'LBL_Mail_Server'     => 'Nome Servidor Mensagem ou IP',
 	'LBL_Mark_As_Unread'  => 'Marcar como não lida',
 	'LBL_MODULE_DENIED' => 'modulo negado!',
-	'LBL_MODULE_DESCRIPTION' => "O Gestor de Mensagens é um cliente de e-mail integrado, que permite aos Usuários executar ações relacionadas com o CRM quando uma mensagem é recebida. Através dele é possível criar Leads, Contatos, Organizações, Chamados e Tarefas a partir dos e-mails recebidos em sua Caixa de Entrada. Quando o e-mail do remetente é coincide com o cadastrado no vtiger CRM, você pode realizar outras ações, tais como: Anexar o E-mail, Adicionar uma Tarefa, Comentário e Chamado. Alem disso, você pode gerenciar a composição, respostas, encaminhamento de e-mails etc.",
+	'LBL_MODULE_DESCRIPTION' => "O Gestor de Mensagens é um cliente de e-mail integrado, que permite aos Usuários executar ações relacionadas com o CRM quando uma mensagem é recebida. Através dele é possível criar Leads, Contatos, Clientes, Chamados e Tarefas a partir dos e-mails recebidos em sua Caixa de Entrada. Quando o e-mail do remetente é coincide com o cadastrado no vtiger CRM, você pode realizar outras ações, tais como: Anexar o E-mail, Adicionar uma Tarefa, Comentário e Chamado. Alem disso, você pode gerenciar a composição, respostas, encaminhamento de e-mails etc.",
 	'LBL_MOVE_TO'=>'Mover Para...',
 	'LBL_Newer'           => 'Recente',
 	'LBL_Next'            => 'próxima',
@@ -93,7 +94,7 @@ $languageStrings = Array (
 	'LBL_SSL'         => 'SSL',
 	'LBL_SUBJECT'	=>	'Assunto',
 	'LBL_TLS'         => 'TLS',
-	'LBL_TO_ACCOUNTS' => 'Para Organizações',
+	'LBL_TO_ACCOUNTS' => 'Para Clientes',
 	'LBL_TO_CONTACTS' => 'Para Contatos',
 	'LBL_TO_LEADS' => 'Para Leads',
 	'LBL_TO'          => 'Para',
@@ -108,7 +109,7 @@ $languageStrings = Array (
 
 $jsLanguageStrings = Array (
 	'JS_FUTURE_EVENT_CANNOT_BE_HELD' => 'Não pode ser mantido para o Futuro',
-	'JSLBL_ACCOUNTNAME_CANNOT_EMPTY'=>'O nome da Organização não pode estar vazio',
+	'JSLBL_ACCOUNTNAME_CANNOT_EMPTY'=>'O nome da Cliente não pode estar vazio',
 	'JSLBL_ADD_COMMENT'=>'Adicionar Comentários',
 	'JSLBL_Associating'          => 'Associando',
 	'JSLBL_ATTACHMENT_NOT_DELETED'	=>	'O anexo não pode ser apagado',

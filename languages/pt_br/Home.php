@@ -7,8 +7,9 @@
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
  * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 26/04/2014 - www.ttcasolucoes.com.br
  ************************************************************************************/
+// Altera o nome de organização para cliente
 $languageStrings = array(
-	'ALVT' => 'Principais Organizações',
+	'ALVT' => 'Principais Clientes',
 	'CVLVT' => 'Métricas Chave',
 	'GRT' => 'Meus Grupos',
 	'HDB' => 'Página Painel',

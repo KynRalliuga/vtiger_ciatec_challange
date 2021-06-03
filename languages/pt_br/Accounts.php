@@ -29,6 +29,7 @@ $languageStrings = array(
 	'LBL_RECORDS_LIST' => 'Lista Clientes' ,
 	'LBL_SHOW_ACCOUNT_HIERARCHY' => 'Mostrar Hierarquia da Cliente',
 	'LBL_START_DATE' => 'Data Inicial',
+	'LBL_TICKET_PRIORITY' => 'Prioridade', // Adiciona a label de prioridade para os tickets na página de Clientes
 	'Member Of'=> 'Membro de' ,
 	'Other Email'=> 'Email Alternativo' ,
 	'Other Phone' => 'Telefone Alternativo',

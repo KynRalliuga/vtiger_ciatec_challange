@@ -7,10 +7,11 @@
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
  * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 22/08/2014 - www.ttcasolucoes.com.br
  ************************************************************************************/
+// Altera o nome de organização para cliente
 $languageStrings = array(
 	'--None--' => '--Nada--',
-	'Account Name' => 'Nome Organização', 
-	'Accounts' => 'Organizações', 
+	'Account Name' => 'Nome Cliente', 
+	'Accounts' => 'Clientes', 
 	'Acquired' => 'Adquirido',
 	'Active' => 'Ativo' , 
 	'Activities' => 'Atividades',
@@ -590,7 +591,7 @@ $languageStrings = array(
 	'Shipping State' =>'Estado Entrega', //Duplicated key-value pairs
 	'Shipping' => 'Entrega',
 	'Shutdown' => 'Encerrado',
-	'SINGLE_Accounts' => 'Organização', //Duplicated key-value pairs
+	'SINGLE_Accounts' => 'Cliente', //Duplicated key-value pairs
 	'SINGLE_Contacts' => 'Contato', //Duplicated key-value pairs
 	'SINGLE_Emails' => 'Email',
 	'Single_Users' => 'Usuário',
@@ -717,7 +718,7 @@ $jsLanguageStrings = array(
 	'JS_DUPLIACATE_ENTRIES_FOUND_FOR_THE_VALUE' => 'Foi encontrado valor duplicado',
 	'JS_DUPLICATE_ENTRIES_FOUND_FOR_THE_VALUE' => 'Foram encontradas entradas duplicadas para o valor',
 	'JS_DUPLICATE_RECORD'=> 'Registro Duplicado',
-	'JS_DUPLICTAE_CREATION_CONFIRMATION' => 'O nome da Organização já existe. Deseja criar um registro duplicado?',
+	'JS_DUPLICTAE_CREATION_CONFIRMATION' => 'O nome da Cliente já existe. Deseja criar um registro duplicado?',
 	'JS_EMAIL_SERVER_CONFIGURATION' => 'Por favor, ajuste as configurações do Servidor Envio Mensagens a partir do menu Configurações',
 	'JS_END_DATE_TIME' => 'Data & Hora Final',
  	'JS_ERROR' => 'Erro',
@@ -772,7 +773,7 @@ $jsLanguageStrings = array(
 	'JS_PLEASE_ENTER_VALID_DATE' => 'Por favor, digite uma data válida',
 	'JS_PLEASE_ENTER_VALID_EMAIL_ADDRESS' => 'Por favor, digite um endereço de email válido',
 	'JS_PLEASE_ENTER_VALID_TIME' => 'Por favor, digite uma hora válida',
-	'JS_PLEASE_SELECT_AN_ACCOUNT_TO_COPY_ADDRESS' => 'Por favor, selecione uma Organização para copiar o endereço',
+	'JS_PLEASE_SELECT_AN_ACCOUNT_TO_COPY_ADDRESS' => 'Por favor, selecione uma Cliente para copiar o endereço',
 	'JS_PLEASE_SELECT_AN_CONTACT_TO_COPY_ADDRESS' => 'Por favor, selecione um Contato para copiar o endereço',
 	'JS_PLEASE_SELECT_ATLEAST_ONE_MANDATORY_FIELD' => 'Por favor, selecione ao menos um Campo Obrigatório',
 	'JS_PLEASE_SELECT_ATLEAST_ONE_OPTION' => 'Por favor, selecione ao menos uma opção',
@@ -787,7 +788,7 @@ $jsLanguageStrings = array(
 	'JS_RECORD_GETTING_DELETED' => 'Os registros foram excluídos',
 	'JS_REENTER_PASSWORDS' => 'Redigite as Senhas',
 	'JS_REQUIRED_FIELD' => '* Este campo é obrigatório',
-	'JS_SELECTED_ACCOUNT_DOES_NOT_HAVE_AN_ADDRESS' => 'A Organização selecionada não possui um endereço para copiar',
+	'JS_SELECTED_ACCOUNT_DOES_NOT_HAVE_AN_ADDRESS' => 'A Cliente selecionada não possui um endereço para copiar',
 	'JS_SELECTED_CONTACT_DOES_NOT_HAVE_AN_ADDRESS' => 'O Contato selecionado não possui um endereço para copiar',
     'JS_SELECT_ATLEAST_TWO_RECORD_FOR_MERGING' => 'Selecionar pelo menos dois registros para mesclar',
 	'JS_SELECT_FILE_EXTENSION' => 'Por favor, selecione um arquivo com a seguinte extensão:',
@@ -825,7 +826,7 @@ $jsLanguageStrings = array(
 	'OVERWRITE_EXISTING_MSG2' => 'Detalhes do Endereço' ,
 	'PM' => 'PM',
 	'SHOULD_BE_LESS_THAN_TODAY' => 'Deve ocorrer antes de hoje' ,
-	'SINGLE_Accounts' => 'Organização',
+	'SINGLE_Accounts' => 'Cliente',
 	'SINGLE_Contacts' => 'Contato' ,
 	
     //Promotion translations

@@ -7,6 +7,7 @@
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
  * Contributor(s): Valmir C. Trindade - Translated to Brazilian Portuguese - 30/11/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
+// Altera o nome de organização para cliente
 // Altera o nome oportunidades para negociações
 $languageStrings = array(
 	'Amount' => 'Valor Fechamento', 
@@ -38,7 +39,7 @@ $languageStrings = array(
 	'Proposal/Price Quote' => 'Proposta', 
 	'Prospecting'=> 'Prospectando', 
 	'Qualification'=> 'Qualificacao', 
-	'Related To' => 'Nome Organização',
+	'Related To' => 'Nome Cliente',
 	'Sales Stage'=> 'Estágio da Venda', 
 	'SINGLE_Potentials'=> 'Negociação', 
 	'Top Potentials' => 'Principais Negociações' ,

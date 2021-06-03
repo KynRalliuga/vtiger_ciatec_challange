@@ -95,4 +95,35 @@ class Accounts_DetailView_Model extends Vtiger_DetailView_Model {
 
 		return $linkModelList;
 	}
+	
+	/**
+	 * Function to get the detail view widgets
+	 * @return <Array> - List of widgets , where each widget is an Vtiger_Link_Model
+	 */
+	public function getWidgets() {
+		$userPrivilegesModel = Users_Privileges_Model::getCurrentUserPrivilegesModel();
+		$widgetLinks = parent::getWidgets();
+		$widgets = array();
+		
+		// Exibe widget de tickets somente para os clientes
+		$helpDeskInstance = Vtiger_Module_Model::getInstance('HelpDesk');
+		if($userPrivilegesModel->hasModuleActionPermission($helpDeskInstance->getId(), 'DetailView') && $this->getModuleName() === 'Accounts') {
+			$createPermission = $userPrivilegesModel->hasModuleActionPermission($helpDeskInstance->getId(), 'EditView');
+			$widgets[] = array(
+					'linktype' => 'DETAILVIEWWIDGET',
+					'linklabel' => 'HelpDesk',
+					'linkName'	=> $helpDeskInstance->getName(),
+					'linkurl' => 'module='.$this->getModuleName().'&view=Detail&record='.$this->getRecord()->getId().
+							'&relatedModule=HelpDesk&mode=showRelatedRecords&page=1&limit=10',
+					'action'	=>	($createPermission == true) ? array('Add') : array(),
+					'actionURL' =>	$helpDeskInstance->getQuickCreateUrl()
+				);
+		}
+
+		foreach ($widgets as $widgetDetails) {
+			$widgetLinks[] = Vtiger_Link_Model::getInstanceFromValues($widgetDetails);
+		}
+
+		return $widgetLinks;
+	}
 }

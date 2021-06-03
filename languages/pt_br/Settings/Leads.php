@@ -7,6 +7,7 @@
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
  * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 17/05/2013 - www.ttcasolucoes.com.br
  *************************************************************************************/
+// Altera o nome de organização para cliente
 $languageStrings = array(
 	'checkBox' => 'Caixa Seleção',
 	'currency' => 'Moeda',
@@ -23,7 +24,7 @@ $languageStrings = array(
 	'LBL_MAPPING_WITH_OTHER_MODULES' => 'Mapeamento com outros Módulos',
 	'LBL_NONE' => 'Nenhum',
 	'LBL_OPPURTUNITIES' => 'Oportunidades',
-	'LBL_ORGANIZATIONS' => 'Organizações',
+	'LBL_ORGANIZATIONS' => 'Clientes',
 	'LBL_SAVED_SUCCESSFULLY' => 'Salvo com Sucesso',
 	'multiSelectCombo' => 'Caixa Multi-Seleção',
 	'percent' => 'Percentual',

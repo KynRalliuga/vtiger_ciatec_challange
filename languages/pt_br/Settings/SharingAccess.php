@@ -7,8 +7,9 @@
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
  * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 17/05/2013 - www.ttcasolucoes.com.br
  ************************************************************************************/
+// Altera o nome de organização para cliente
 $languageStrings = array(
-	'Accounts' => 'Organizações & Contatos',
+	'Accounts' => 'Clientes & Contatos',
 	'LBL_ADD_CUSTOM_RULE' => 'Adicionar Regra Customizada',
 	'LBL_ADD_CUSTOM_RULE_TO' => 'Adicionar Regra Customizada para',
 	'LBL_ADVANCED_SHARING_RULES' => 'Regras Compartilhamento Avançadas',
@@ -31,7 +32,7 @@ $languageStrings = array(
 
 $jsLanguageStrings = array(
 	'JS_CUSTOM_RULE_SAVED_SUCCESSFULLY' => 'Regra de Compartilhamento Customizada Salva com Sucesso',
-	'JS_DEPENDENT_PRIVILEGES_SHOULD_CHANGE' => 'O acesso a Oportunidades, Tickets, Cotações, Pedido de Venda & Fatura devem ser configurados como Particular, quando o acesso à Organização estiver configurado como Particular',
+	'JS_DEPENDENT_PRIVILEGES_SHOULD_CHANGE' => 'O acesso a Oportunidades, Tickets, Cotações, Pedido de Venda & Fatura devem ser configurados como Particular, quando o acesso à Cliente estiver configurado como Particular',
 	'JS_NEW_SHARING_RULES_APPLIED_SUCCESSFULLY' => 'Nova Regra de Compartilhamento Aplicada com Sucesso',
 	'JS_SELECT_ANY_OTHER_ACCESSING_USER' => 'Selecionar qualquer outro usuário',
 );

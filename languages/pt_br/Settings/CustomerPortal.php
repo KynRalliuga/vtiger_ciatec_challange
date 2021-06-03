@@ -7,6 +7,7 @@
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
  * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 24/05/2013 - www.ttcasolucoes.com.br
  *************************************************************************************/
+// Altera o nome de organização para cliente
 $languageStrings = array(
 	'CustomerPortal' => 'Portal do Cliente',
 	'LBL_DEFAULT_ASSIGNEE_MESSAGE' => 'Os Tickets serão atribuídos ao Responsável selecionado como Usuário/Grupo padrão do Portal do Cliente.',
@@ -19,7 +20,7 @@ $languageStrings = array(
 	'LBL_PORTAL_URL' => 'Url do Portal',
 	'LBL_PREVILEGES_MESSAGE' => "Os privilégios da Função selecionada serão aplicados ao Usuário do Portal.",
 	'LBL_PRIVILEGES' => 'Privilégios',
-	'LBL_VIEW_ALL_RECORDS' => 'Visualiza os Registros de toda a Organização',
+	'LBL_VIEW_ALL_RECORDS' => 'Visualiza os Registros de toda a Cliente',
 );
 
 $jsLanguageStrings = array(

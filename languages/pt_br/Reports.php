@@ -7,24 +7,25 @@
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
  * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 20/06/2014 - www.ttcasolucoes.com.br
  ************************************************************************************/
+// Altera o nome de organização para cliente
 $languageStrings = array(
-	'Account and Contact Reports'=> 'Relatórios de Organizações e Contatos', 
-	'Accounts Email Report'=> 'Relatório Emails Organizações',
+	'Account and Contact Reports'=> 'Relatórios de Clientes e Contatos', 
+	'Accounts Email Report'=> 'Relatório Emails Clientes',
 	'Activity Reports' => 'Relatórios de Atividades' , 
 	'Campaign Expectations and Actuals' => 'Campanha - Previsto/Realizado', //Added for Campaigns
 	'Campaign Reports' => 'Relatórios de Campanhas', //Added for Campaigns
 	'Closed Potentials'=> 'Oportunidade Fechada', 
-	'Contacts by Accounts' => 'Contatos por Organizações' , 
+	'Contacts by Accounts' => 'Contatos por Clientes' , 
 	'Contacts by Potentials' => 'Contatos por Oportunidades', 
 	'Contacts Email Report'=> 'Relatório Emails Contatos' ,
-	'Contacts not related to Accounts' => 'Contatos não relacionados às Organizações', 
-	'Contacts related to Accounts' => 'Contatos relacionados às Organizações', 
+	'Contacts not related to Accounts' => 'Contatos não relacionados às Clientes', 
+	'Contacts related to Accounts' => 'Contatos relacionados às Clientes', 
 	'Contacts related to Potentials' => 'Contatos relacionados às Oportunidades', 
-	'Contacts without Accounts'=> 'Contatos sem Organizações' , 
+	'Contacts without Accounts'=> 'Contatos sem Clientes' , 
 	'Email Reports'=> 'Relatórios Emails' ,
 	'Emails sent to Contacts'=> 'Emails enviados para Contatos' ,
 	'Emails sent to Leads' => 'Emails enviados para Leads',
-	'Emails sent to Organizations' => 'Emails enviados para Organizações',
+	'Emails sent to Organizations' => 'Emails enviados para Clientes',
 	'Emails sent to Vendors' => 'Emails enviados para Fornecedores',
 	'HelpDesk Reports' => 'Relatórios de Chamados', 
 	'Invoice Detailed Report'=> 'Relatório Detalhado da Fatura', 

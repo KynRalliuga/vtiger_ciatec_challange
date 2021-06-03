@@ -7,6 +7,7 @@
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
  * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 26/04/2014 - www.ttcasolucoes.com.br
  ************************************************************************************/
+// Altera o nome de organização para cliente
 $languageStrings = array(
 	'Attempted to Contact' => 'Tentativa Contato' , 
 	'CANNOT_CONVERT' => 'Não pode ser Convertido', 
@@ -24,7 +25,7 @@ $languageStrings = array(
 	'LBL_ADD_RECORD' => 'Adicionar Lead',
 	'LBL_CONVERT_LEAD' => 'Converter Lead:' ,
 	'LBL_CONVERT_LEAD_ERROR_TITLE' => 'Módulos Desabilitados',
-	'LBL_CONVERT_LEAD_ERROR' => 'Você tem que habilitar uma Organização ou Contato para converter o Lead',
+	'LBL_CONVERT_LEAD_ERROR' => 'Você tem que habilitar uma Cliente ou Contato para converter o Lead',
 	'LBL_CUSTOM_FIELD_MAPPING' => 'Editar Mapeamento Campo',
 	'LBL_FOLLOWING_ARE_POSSIBLE_REASONS' => 'Possíveis razões:', 
 	'LBL_LEAD_INFORMATION' => 'Informação Lead' ,
@@ -54,6 +55,6 @@ $languageStrings = array(
 );
 $jsLanguageStrings = array(
 	'JS_SELECT_CONTACTS' => 'Selecionar Contatos para prosseguir',
-	'JS_SELECT_ORGANIZATION_OR_CONTACT_TO_CONVERT_LEAD' => 'A conversão requer seleção do Contato ou Organização',
-	'JS_SELECT_ORGANIZATION' => 'Selecionar Organização para prosseguir',
+	'JS_SELECT_ORGANIZATION_OR_CONTACT_TO_CONVERT_LEAD' => 'A conversão requer seleção do Contato ou Cliente',
+	'JS_SELECT_ORGANIZATION' => 'Selecionar Cliente para prosseguir',
 );

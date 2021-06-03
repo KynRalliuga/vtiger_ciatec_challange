@@ -7,6 +7,7 @@
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
  * Contributor(s): Valmir C. Trindade - Translate to Brazilian Portuguese - 26/04/2014 - www.ttcasolucoes.com.br
  *************************************************************************************/
+// Altera o nome de organização para cliente
 $languageStrings = array(
 	'action' => 'Ação',
 	'ADD_RULES' => 'Adicionar Regras',
@@ -16,7 +17,7 @@ $languageStrings = array(
 	'body' => 'Corpo',
 	'Connect URL'                  => 'Conectar URL'                , 
 	'Contains' => 'Contém',
-	'CREATE_Accounts_SUBJECT' => 'Criar Organização',
+	'CREATE_Accounts_SUBJECT' => 'Criar Cliente',
 	'CREATE_Contacts_SUBJECT' => 'Criar Contato',
 	'CREATE_HelpDesk_FROM' => 'Criar Chamado',
 	'CREATE_Leads_SUBJECT' => 'Criar Lead',
@@ -77,8 +78,8 @@ $languageStrings = array(
         'LBL_UNSELECT_ALL' => 'Desmarcar Todos',
         'LBL_UPDATE_FOLDERS' => 'Atualizar Pastas',
 	'LBL_VALIDATE_SSL_CERTIFICATE' => 'Validar Certificado SSL',
-	'LINK_Accounts_FROM' => 'Adicionar à Organização [DE]',
-	'LINK_Accounts_TO' => 'Adicionar à Organização [PARA]',
+	'LINK_Accounts_FROM' => 'Adicionar à Cliente [DE]',
+	'LINK_Accounts_TO' => 'Adicionar à Cliente [PARA]',
 	'LINK_Contacts_FROM' => 'Adicionar ao Contato [DE]',
 	'LINK_Contacts_TO' => 'Adicionar ao Contato [PARA]',
 	'LINK_Leads_FROM' => 'Adicionar ao Lead [DE]',
