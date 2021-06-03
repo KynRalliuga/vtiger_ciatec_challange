@@ -7,10 +7,11 @@
  * Portions created by vtiger are Copyright (C) vtiger. All Rights Reserved.
  * Contributor(s): Valmir C. Trindade - Translated to Brazilian Portuguese - 31/05/2014 - www.ttcasolucoes.com.br
  ************************************************************************************/
+// Altera o nome de organização para cliente
 $languageStrings = array(
-	'Account Name' => 'Nome Organização',
-	'Account No' => 'Cód. Organização',
-	'Accounts' => 'Organizações',
+	'Account Name' => 'Nome Cliente',
+	'Account No' => 'Cód. Cliente',
+	'Accounts' => 'Clientes',
 	'Analyst'=> 'Analista', 
 	'Competitor' => 'Concorrente' , 
 	'Customer' => 'Cliente' ,
@@ -19,14 +20,14 @@ $languageStrings = array(
 	'industry' => 'Atividade' , 
 	'Integrator' => 'Integrador', 
 	'Investor' => 'Investidor',
-	'LBL_ACCOUNT_INFORMATION' => 'Detalhes da Organização',
-	'LBL_ADD_RECORD' => 'Adicionar Organização',
+	'LBL_ACCOUNT_INFORMATION' => 'Detalhes da Cliente',
+	'LBL_ADD_RECORD' => 'Adicionar Cliente',
 	'LBL_COPY_BILLING_ADDRESS' => 'Copiar Endereço Faturamento',
 	'LBL_COPY_SHIPPING_ADDRESS' => 'Copiar Endereço Entrega',
-	'LBL_DUPLICATES_EXIST' => 'O Nome da Organização já existe',
+	'LBL_DUPLICATES_EXIST' => 'O Nome da Cliente já existe',
 	'LBL_END_DATE' => 'Data Final', 
-	'LBL_RECORDS_LIST' => 'Lista Organizações' ,
-	'LBL_SHOW_ACCOUNT_HIERARCHY' => 'Mostrar Hierarquia da Organização',
+	'LBL_RECORDS_LIST' => 'Lista Clientes' ,
+	'LBL_SHOW_ACCOUNT_HIERARCHY' => 'Mostrar Hierarquia da Cliente',
 	'LBL_START_DATE' => 'Data Inicial',
 	'Member Of'=> 'Membro de' ,
 	'Other Email'=> 'Email Alternativo' ,
@@ -38,7 +39,7 @@ $languageStrings = array(
 	'Prospect Accounts' => 'Contas Prospect',
 	'Reseller' => 'Revendedor',
 	'SIC Code' => 'Cod CNAE', 
-	'SINGLE_Accounts' => 'Organização' ,
+	'SINGLE_Accounts' => 'Cliente' ,
 	'Ticker Symbol'=> 'Cod. Bolsa', 
 	'Website'=> 'Website' , 
 	//Missing Fields in Right Bar | Valmir C Trindade
@@ -49,8 +50,8 @@ $languageStrings = array(
 );
 
 $jsLanguageStrings = array(
-	'JS_DUPLICTAE_CREATION_CONFIRMATION' => 'O nome da Organização já existe. Deseja criar um registro duplicado?',
-	'LBL_DELETE_CONFIRMATION'=> 'Ao apagar esta Organização serão removidas as Oportunidades e Cotações relacionadas. Tem certeza que certeza que deseja apagar esta Organização?',
-	'LBL_MASS_DELETE_CONFIRMATION' => 'Ao apagar esta(s) Organização(ões) serão removidas as Oportunidades e Cotações relacionadas. Tem certeza que deseja apagar o(s) registro(s) selecionado(s)?',
+	'JS_DUPLICTAE_CREATION_CONFIRMATION' => 'O nome da Cliente já existe. Deseja criar um registro duplicado?',
+	'LBL_DELETE_CONFIRMATION'=> 'Ao apagar esta Cliente serão removidas as Oportunidades e Cotações relacionadas. Tem certeza que certeza que deseja apagar esta Cliente?',
+	'LBL_MASS_DELETE_CONFIRMATION' => 'Ao apagar esta(s) Cliente(ões) serão removidas as Oportunidades e Cotações relacionadas. Tem certeza que deseja apagar o(s) registro(s) selecionado(s)?',
 	'LBL_RELATED_RECORD_DELETE_CONFIRMATION' => 'Tem certeza que deseja apagar?',
 );
