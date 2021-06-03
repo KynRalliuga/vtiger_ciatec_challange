@@ -1,10 +1,15 @@
-Vtiger CRM
-==========
+# How to install
+
+In your local machine:
+
+- Create a DB in MySQL with the name "vtiger_cia_tecnica" and import the sql "./bkp_mysql/bkp_vtiger_cia_tecnica.sql";
+- Then rename the file "config.inc.php.example" to "config.inc.php" and change it to better suit the configurations of your machine;
+
+# Vtiger CRM
 
 Vtiger is a PHP based web application that enables businesses to increase sales wins, marketing ROI, and support satisfaction by providing tools for employees and management work more effectively, capture more data, and derive new actionable insights from across the customer lifecycle.
 
-Get involved
-------------
+## Get involved
 
 Development on vtiger is done at http://code.vtiger.com
 
@@ -15,7 +20,7 @@ to report you can [create an issue](http://code.vtiger.com/vtiger/vtigercrm/issu
 
 If you then want to fix the issue (or another issue) you can create your own fork of vtiger to work on using the
 fork button on the vtiger project, this will create a new git repository for you at
-    
+
     http://code.vtiger.com/yourname/vtigercrm.git
 
 on your computer you will need a git client installed and you need to tell git who you are:
@@ -47,7 +52,7 @@ Now you can push your branch to the server, this creates the branch on the serve
     git push --set-upstream origin fix_projects_on_calendar
 
 look at the branch on code.vtiger.com and create a merge request from your branch
-to the upstream master, this will be reviewed to see if it fixes the 
+to the upstream master, this will be reviewed to see if it fixes the
 issue and if all is good will be merged into the upstream code.
 You can then switch back to your master branch with
 
@@ -61,4 +66,3 @@ repository as an upstream remote (only need to do this bit once), then you can f
     git remote add upstream http://code.vtiger.com/vtiger/vtigercrm.git
     git fetch upstream
     git merge upstream/master
-
