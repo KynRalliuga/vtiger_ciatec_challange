@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2021-06-02 07:21:10
+<?php /* Smarty version Smarty-3.1.7, created on 2021-06-03 04:51:44
          compiled from "C:\xampp_php_7_1\htdocs\vtiger_cia_tecnica\includes\runtime/../../layouts/vlayout\modules\Vtiger\RelatedActivities.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:78187283560b731665031f1-54927852%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:24872801360b85fe0520630-18056729%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '78187283560b731665031f1-54927852',
+  'nocache_hash' => '24872801360b85fe0520630-18056729',
   'function' => 
   array (
   ),
@@ -30,9 +30,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_60b73166547a6',
+  'unifunc' => 'content_60b85fe055521',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60b73166547a6')) {function content_60b73166547a6($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_60b85fe055521')) {function content_60b85fe055521($_smarty_tpl) {?>
 <?php $_smarty_tpl->tpl_vars['MODULE_NAME'] = new Smarty_variable("Calendar", null, 0);?><div  class="summaryWidgetContainer"><div class="widget_header row-fluid"><span class="span8"><h4 class="textOverflowEllipsis"><?php echo vtranslate('LBL_ACTIVITIES',$_smarty_tpl->tpl_vars['MODULE_NAME']->value);?>
 </h4></span><span class="span4"><button class="btn pull-right addButton createActivity" data-url="sourceModule=<?php echo $_smarty_tpl->tpl_vars['RECORD']->value->getModuleName();?>
 &sourceRecord=<?php echo $_smarty_tpl->tpl_vars['RECORD']->value->getId();?>

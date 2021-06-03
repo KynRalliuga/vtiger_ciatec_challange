@@ -678,7 +678,7 @@ abstract class BaseRecognizer{
 			$e = new Exception();
 		}
 		if($recognizerClassName==null){
-			$recognizerClassName = get_class(self);
+			$recognizerClassName = get_class($this);
 		}
 		throw new Exception("Not implemented yet");
 		// List rules = new ArrayList();

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2021-06-02 07:25:18
+<?php /* Smarty version Smarty-3.1.7, created on 2021-06-03 05:22:00
          compiled from "C:\xampp_php_7_1\htdocs\vtiger_cia_tecnica\includes\runtime/../../layouts/vlayout\modules\Install\Step5.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:7174411060b7244edde734-51270042%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:127376582760b858e88f5387-42206623%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '7174411060b7244edde734-51270042',
+  'nocache_hash' => '127376582760b858e88f5387-42206623',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.7',
-  'unifunc' => 'content_60b7244ee20cb',
+  'unifunc' => 'content_60b858e89640e',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60b7244ee20cb')) {function content_60b7244ee20cb($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_60b858e89640e')) {function content_60b858e89640e($_smarty_tpl) {?>
 <form class="form-horizontal" name="step5" method="post" action="index.php">
 	<input type=hidden name="module" value="Install" />
 	<input type=hidden name="view" value="Index" />
